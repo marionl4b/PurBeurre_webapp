@@ -1,0 +1,18 @@
+## OSX ##
+.DS_Store
+
+## Pycharm ##
+.idea/
+
+## Env ##
+Pipfile
+Pipfile.lock
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
