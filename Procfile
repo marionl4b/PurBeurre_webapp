@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn PurBeurre_webapp.wsgi
