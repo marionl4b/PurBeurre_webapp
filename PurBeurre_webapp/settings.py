@@ -36,6 +36,7 @@ ALLOWED_HOSTS = ['https://dry-fortress-52363.herokuapp.com/', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'website.apps.WebsiteConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
