@@ -25,9 +25,12 @@ SECRET_KEY = '20o4&%&)z3=_b&(i&1#lvm9*%z!v2@aw*o2!_&2^z#%^3=k*fz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+if os.environ.get('ENV') == 'PRODUCTION':
+    DEBUG = False
+else:
+    DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['https://dry-fortress-52363.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
