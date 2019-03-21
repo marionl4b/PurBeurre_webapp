@@ -1,3 +1,6 @@
-from django.test import TestCase
+import pytest
 
-# Create your tests here.
+
+def test_basic():
+    hello = "Bonjour"
+    assert hello == "Bonjour"

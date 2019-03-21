@@ -137,3 +137,6 @@ STATIC_URL = '/static/'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+# Activate Pytest for ./manage.py test
+TEST_RUNNER = 'pytest_runner.PytestTestRunner'
