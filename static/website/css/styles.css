@@ -1,0 +1,29 @@
+/*globals*/
+:root{
+--primary: #d69749 !important;
+}
+
+/*top navbar*/
+#logo{
+    width: 2em;
+}
+
+/******** homepage ********/
+/*about section*/
+.portraits img{
+    width: 80%;
+}
+
+/*responsive*/
+ @media (min-width: 768px) {
+   .portraits img{
+       width: 40%;
+       margin-bottom: 2em;
+    }
+   .portraits img:first-child{
+       float: left !important;
+   }
+   .portraits img:last-child{
+       float: right !important;
+   }
+ }
