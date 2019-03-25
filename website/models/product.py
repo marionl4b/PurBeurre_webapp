@@ -1,17 +1,11 @@
 from django.db import models
+from .category import Category
 from django.contrib.auth.models import User
 
 
-class Category(models.Model):
-    name = models.CharField(max_length=100)
-    desc = models.TextField()
-
-    def __str__(self):
-        return self.name
-
-
 class Product(models.Model):
-    name = models.CharField(max_length=100)
+    """Models for products of OFF database"""
+    name = models.CharField(max_length=100, unique=True)
     desc = models.TextField()
     API_link = models.URLField()
     photo = models.URLField()
@@ -22,3 +16,6 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+    class Meta:
+        app_label = 'website'

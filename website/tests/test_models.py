@@ -1,5 +1,8 @@
 import pytest
-from website.models import *
+
+from website.models.product import Product
+from website.models.product import Category
+
 
 @pytest.mark.django_db
 class TestModels:
@@ -31,3 +34,8 @@ class TestModels:
     def test_product_has_multiple_category(self, setup):
         nutella_categories = self.nutella.categories.values_list("name")
         assert list(nutella_categories) == [("breakfast",), ("chocolate",)]
+
+    def test_raise_product_is_unique(self, setup):
+        with pytest.raises(Exception):
+            nutella_2 = Product.objects.create(name="nutella", nutriscore="e")
+
