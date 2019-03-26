@@ -26,7 +26,7 @@ class TestModels:
 
     def test_product_has_category(self, setup):
         """ GIVEN : tests data for Category and Product
-            THEN : retreive category name for snickers product
+            THEN : retrieve category name for snickers product
             WHEN : many-to-many relation has been set between product and category """
         snicker_has_cat = self.snicker.categories.values("name")
         assert list(snicker_has_cat) == [{'name': 'snacks'}]
@@ -37,5 +37,4 @@ class TestModels:
 
     def test_raise_product_is_unique(self, setup):
         with pytest.raises(Exception):
-            nutella_2 = Product.objects.create(name="nutella", nutriscore="e")
-
+            Product.objects.create(name="nutella", nutriscore="e")
