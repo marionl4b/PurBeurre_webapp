@@ -1,7 +1,4 @@
 /*globals*/
-:root{
---primary: #d69749 !important;
-}
 
 /*top navbar*/
 #logo{
@@ -12,6 +9,31 @@
 /*about section*/
 .portraits img{
     width: 80%;
+}
+
+/********* list of products *******/
+/*header*/
+.alt-header {
+    background: var(--dark-caramel);
+    padding-top: 30%;
+}
+/*cards*/
+.card-columns .card {
+    margin-bottom: 2.25rem;
+}
+.img-wrapper{
+    max-height: 250px;
+    overflow: hidden;
+}
+.nutriscore {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    background: black;
+    color: white;
+    padding-top: 0.7em;
+    top: -10px;
+    right: -10px;
 }
 
 /*responsive*/
@@ -25,5 +47,8 @@
    }
    .portraits img:last-child{
        float: right !important;
+   }
+   .alt-header {
+       padding-top: 13%;
    }
  }
