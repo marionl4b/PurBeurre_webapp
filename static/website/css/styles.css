@@ -34,6 +34,24 @@
     padding-top: 0.7em;
     top: -10px;
     right: -10px;
+    text-transform: uppercase;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+.nutriscore-a{
+    background-color: #008439;
+}
+.nutriscore-b{
+    background-color: #73be00;
+}
+.nutriscore-c{
+    background-color: #ffca00;
+}
+.nutriscore-d{
+    background-color: #fd7b00;
+}
+.nutriscore-e{
+    background-color: #f92500;
 }
 
 /*detail-product*/

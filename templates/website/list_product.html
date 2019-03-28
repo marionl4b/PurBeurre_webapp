@@ -19,11 +19,11 @@
           {% for product in products %}
             <div class="card text-center">
                 <div class="img-wrapper p-2">
-                    <img src="{{ product.photo }}" class="card-img-top" alt="{{ product.name }}">
+                    <a href="/search/{{ product.id }}"><img src="{{ product.photo }}" class="card-img-top" alt="{{ product.name }}"></a>
                 </div>
                 <div class="card-body">
-                  <h6 class="card-title">{{ product.name }}</h6>
-                    <div class="nutriscore rounded-circle">{{ product.nutriscore }}</div>
+                  <h6 class="card-title"><a href="/search/{{ product.id }}">{{ product.name }}</a></h6>
+                    <div class="nutriscore nutriscore-{{ product.nutriscore }} rounded-circle">{{ product.nutriscore }}</div>
                     <p class="card-text"><button class="btn btn-primary"><i class="far fa-save"></i> Enregistrer</button></p>
                 </div>
             </div>
