@@ -36,6 +36,14 @@
     right: -10px;
 }
 
+/*detail-product*/
+.detail-header{
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /*responsive*/
  @media (min-width: 768px) {
    .portraits img{
