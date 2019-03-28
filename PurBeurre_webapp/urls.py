@@ -20,5 +20,6 @@ from website import views
 urlpatterns = [
     path('manager/', admin.site.urls),
     path('', views.home, name='home'),
+    path('account/register/', views.register, name="register"),
     path('search/', include('website.urls', namespace='website')),
 ]

@@ -5,5 +5,5 @@ app_name = 'website'
 
 urlpatterns = [
     re_path(r'^(?P<product_id>[0-9]+)/$', views.detail, name="detail"),
-    path('result/', views.result, name="result")
+    path('result/', views.result, name="result"),
 ]

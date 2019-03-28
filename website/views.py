@@ -1,5 +1,7 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
+from django.contrib.auth import authenticate, login, logout
 from .models.product import Product
+from .forms import UserForm
 
 
 def home(request):
@@ -38,3 +40,9 @@ def detail(request, product_id):
             }
             context = {'product': product, 'nutrients': nutrients}
     return render(request, 'website/detail_product.html', context)
+
+
+def register(request):
+    form = UserForm()
+    context = {'form': form}
+    return render(request, 'website/register.html', context)
