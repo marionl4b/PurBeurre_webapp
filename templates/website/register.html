@@ -15,6 +15,14 @@
 
   <!-- registration form -->
   <div class="container p-5">
+    <!-- Alert messages -->
+      {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+      {% endif %}
       <div class="row justify-content-md-center">
           <div class="col col-lg-8 mt-5 mb-2 p-5 border">
             <form method="POST" id="user_registration">
