@@ -29,12 +29,16 @@
             </div>
             <div class="col">
                 <h4>Nutriments pour 100g</h4>
-                <ul>
-                    <li>Sel :</li>
-                    <li>Sucres : </li>
-                    <li>Matières grasse/Lipides : </li>
-                    <li>Acides gras staurés: </li>
+                {% if nutrients %}
+                <ul class="list-unstyled mt-1">
+                    <li><span class="rounded-circle nutrient-level {{nutrients.fat_level}}"></span><strong>Matières grasse/Lipides :</strong> {{ nutrients.fat}}g</li>
+                    <li><span class="rounded-circle nutrient-level {{nutrients.saturated_fat_level}}"></span><strong>Acides gras staurés: </strong>{{ nutrients.saturated_fat}}g</li>
+                    <li><span class="rounded-circle nutrient-level {{nutrients.sugars_level}}"></span><strong>Sucres : </strong>{{ nutrients.sugars}}g</li>
+                    <li><span class="rounded-circle nutrient-level {{nutrients.salt_level}}"></span><strong>Sel : </strong>{{ nutrients.salt}}g</li>
                 </ul>
+                {% else %}
+                <p>Non communiqués</p>
+                {% endif %}
             </div>
         </div>
         <div class="row text-center m-5">

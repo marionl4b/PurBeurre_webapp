@@ -43,6 +43,23 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.nutrient-level{
+    display: inline-block;
+    margin-right: 1em;
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: 0.5em;
+}
+.nutrient-level.high{
+    background-color: var(--danger);
+}
+.nutrient-level.medium{
+    background-color: var(--warning);
+}
+.nutrient-level.low{
+    background-color: var(--success);
+}
 
 /*responsive*/
  @media (min-width: 768px) {
