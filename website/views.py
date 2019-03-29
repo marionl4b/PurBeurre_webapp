@@ -1,7 +1,7 @@
 from django.contrib import messages
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.forms import UserCreationForm
+from .forms import UserRegistrationForm
 from .models.product import Product
 
 
@@ -45,12 +45,13 @@ def detail(request, product_id):
 
 def register(request):
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = UserRegistrationForm(request.POST)
         if form.is_valid():
+            form.save()
             username = form.cleaned_data.get('username')
             messages.success(request, f"Compte créé pour {username}!")
             return redirect('register')
     else :
-        form = UserCreationForm()
+        form = UserRegistrationForm()
     context = {'form': form}
     return render(request, 'website/register.html', context)
