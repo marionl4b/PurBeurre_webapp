@@ -37,6 +37,7 @@ ALLOWED_HOSTS = ['https://dry-fortress-52363.herokuapp.com/', '127.0.0.1']
 
 INSTALLED_APPS = [
     'website.apps.WebsiteConfig',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -140,3 +141,6 @@ django_heroku.settings(locals())
 
 # Activate Pytest for ./manage.py test
 TEST_RUNNER = 'pytest_runner.PytestTestRunner'
+
+# Set bootstrap 4 for crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
