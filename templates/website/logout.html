@@ -1,9 +1,8 @@
 {% extends 'website/base.html' %}
-{% load crispy_forms_tags %}
 {% block content %}
 
     <!-- header -->
-  <header class="alt-header">
+  <header class="alt-header account">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
@@ -19,6 +18,7 @@
   <div class="container p-5">
       <div class="row justify-content-md-center">
           <div class="col col-lg-8 mt-5 mb-2 p-5 text-center">
+          <p>Vous venez d'être déconnecter, nous espérons vous revoir très vite</p>
            <a class="btn btn-primary" href="{% url 'login' %}">Se connecter</a>
           </div>
       </div>
