@@ -9,6 +9,10 @@ def home(request):
     return render(request, 'website/index.html')
 
 
+def legal(request):
+    return render(request, 'website/legal.html')
+
+
 def result(request):
     products = Product.objects.all()
     context = {'products': products}
