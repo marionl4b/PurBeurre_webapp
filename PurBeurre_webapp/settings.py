@@ -147,3 +147,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # authentication
 LOGIN_REDIRECT_URL = 'home'
+LOGIN_URL = 'login'

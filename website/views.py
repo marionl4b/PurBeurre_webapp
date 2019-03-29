@@ -1,6 +1,6 @@
 from django.contrib import messages
 from django.shortcuts import render, get_object_or_404, redirect
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 from .forms import UserRegistrationForm
 from .models.product import Product
 
@@ -48,12 +48,16 @@ def register(request):
         form = UserRegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            username = form.cleaned_data.get('username')
             messages.success(request,
                              f"Votre compte vient d'être créé !, "
                              f"vous pouvez désormais vous connecter")
             return redirect('login')
-    else :
+    else:
         form = UserRegistrationForm()
     context = {'form': form}
     return render(request, 'website/register.html', context)
+
+
+@login_required
+def profile(request):
+    return render(request, 'website/profile.html')
