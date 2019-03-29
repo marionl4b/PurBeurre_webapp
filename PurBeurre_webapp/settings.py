@@ -144,3 +144,6 @@ TEST_RUNNER = 'pytest_runner.PytestTestRunner'
 
 # Set bootstrap 4 for crispy forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# authentication
+LOGIN_REDIRECT_URL = 'home'
