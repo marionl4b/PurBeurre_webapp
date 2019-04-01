@@ -11,7 +11,7 @@ class Product(models.Model):
     photo = models.URLField()
     nutriscore = models.CharField(max_length=1)
     nutrient_100g = models.TextField(null=True, blank=True, verbose_name="nutriments(100g)")
-    categories = models.ManyToManyField(Category)
+    categories = models.ManyToManyField(Category, related_name="product_category")
     favorites = models.ManyToManyField(User,
                                        related_name="Favorite",
                                        blank=True,

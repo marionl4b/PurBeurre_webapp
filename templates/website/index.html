@@ -13,15 +13,15 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-75 font-weight-light mb-5">Trouvez un produit de substitution pour ceux que vous consommez tout les jours</p>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Produit"
-                          aria-label="Produit" aria-describedby="button-go">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="button-go">
-                        Chercher
-                    </button>
+            <form method="get" action="{% url 'website:result' %}" accept-charset="utf-8">
+                <div class="input-group mb-3">
+                    <input type="search" class="form-control" placeholder="Produit" aria-label="Produit"
+                    name="q" value="{{request.GET.q}}">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Chercher</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
       </div>
     </div>
