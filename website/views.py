@@ -30,7 +30,7 @@ def result(request):
             # return substitutes products in the same category with lower nutriscore
             products = Product.objects.filter(categories=search_cat).exclude(nutriscore="e")
         except ObjectDoesNotExist:
-            OFFReq.request_constructor(OFFReq(), query)  # make OFF request when result not match
+            OFFReq.run(OFFReq(), query)  # make OFF request when result not match
             products = Product.objects.all()  # return all products when result not match
     else:
         products = Product.objects.all()  # return all products when query is empty
