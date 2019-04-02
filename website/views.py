@@ -1,9 +1,11 @@
 from django.contrib import messages
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
+from django.core.exceptions import ObjectDoesNotExist
 from .forms import UserRegistrationForm
 from .models.product import Product
 from .models.category import Category
+from .OFF_request import OFFRequest as OFFReq
 
 
 def home(request):
@@ -19,17 +21,19 @@ def result(request):
         THEN: look in database for substitute
         in the same category of product and a lower nutriscore"""
     query = request.GET.get('q')  # retrieve user search query
-    if not query:
-        products = Product.objects.all()  # return all products when query is empty
-    else:
-        # look for product matching query
-        search_prod = Product.objects.get(name__icontains=query, nutriscore="e")
-        # select the first category of the matching product
-        search_cat = Category.objects.filter(product_category=search_prod.id)[:1]
-        # return substitutes products in the same category with lower nutriscore
-        products = Product.objects.filter(categories=search_cat).exclude(nutriscore="e")
-        if len(products) == 0:
+    if query:
+        try:
+            # look for product matching query
+            search_prod = Product.objects.get(name__icontains=query, nutriscore="e")
+            # select the first category of the matching product
+            search_cat = Category.objects.filter(product_category=search_prod.id)[:1]
+            # return substitutes products in the same category with lower nutriscore
+            products = Product.objects.filter(categories=search_cat).exclude(nutriscore="e")
+        except ObjectDoesNotExist:
+            OFFReq.request_constructor(OFFReq(), query)  # make OFF request when result not match
             products = Product.objects.all()  # return all products when result not match
+    else:
+        products = Product.objects.all()  # return all products when query is empty
     context = {'products': products}
     return render(request, 'website/list_product.html', context)
 
