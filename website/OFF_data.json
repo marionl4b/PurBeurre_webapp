@@ -1,333 +1,322 @@
 {
-    "categories": [
-        "Snacks",
-        " Snacks sucr\u00e9s",
-        " Biscuits et g\u00e2teaux",
-        " Biscuits",
-        " Biscuits au chocolat",
-        " Biscuits au chocolat au lait",
-        " Biscuits au chocolat noir",
-        " Desserts",
-        " G\u00e2teaux",
-        " G\u00e2teaux au chocolat",
-        " Biscuits sabl\u00e9s"
-    ],
-    "products": [
+    "substitutes": [
         {
-            "name": "Figolu",
-            "desc": "Farine de _bl\u00e9_ 31,1%, p\u00e2te de figues 25,3%, sucre, sirop de glucose-fructose, mati\u00e8re grasse v\u00e9g\u00e9tale, poudre \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium), sel. ",
+            "name": "Granola Chocolat au Lait",
+            "desc": "Farine de _bl\u00e9_ 38 %, chocolat au lait 29 % (sucre, p\u00e2te et beurre de cacao, lactose et prot\u00e9ines de _lait_, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, mati\u00e8re grasse v\u00e9g\u00e9tale, _beurre_ p\u00e2tissier, sirop de glucose, \u00e9mulsifiants : l\u00e9cithine de _soja_, E476, ar\u00f4me), mati\u00e8re grasse v\u00e9g\u00e9tale, sucre, farine compl\u00e8te de _bl\u00e9_ 10,5 %, sirop de sucre, poudre \u00e0 lever : carbonate acide de sodium, carbonate acide d'ammonium, sel, acidifiant : acide citrique, son de _bl\u00e9_.",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s",
-                " Biscuits fourr\u00e9s",
-                " Sabl\u00e9s aux figues"
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Biscuits au chocolat",
+                "Biscuits au chocolat au lait"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3017760005302/figolu-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/301/776/000/5302/front_fr.21.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:3.6:moderate, fat_100g:7.2:moderate, salt_100g:0.28:low, sugars_100g:50:high "
+            "API_url": "https://fr.openfoodfacts.org/produit/3017760826174/granola-chocolat-au-lait-lu",
+            "image_url": "https://static.openfoodfacts.org/images/products/301/776/082/6174/front_fr.5.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:13:high, fat_100g:24:high, salt_100g:1.1938:moderate, sugars_100g:30:high "
         },
         {
-            "name": "Sabl\u00e9s s\u00e9same & pavot",
-            "desc": "Farine compl\u00e8te de meule de _bl\u00e9_* 30%, farine de _bl\u00e9_*, sucre de canne roux*, huile de tournesol, ol\u00e9ique*, _s\u00e9same_ toast\u00e9* 5.6%, graines de pavot bleu* 5.6%, \u00e9mulsifiant : l\u00e9cithines de colza, sel de mer, ar\u00f4me naturel de vanille, poudre \u00e0 lever (carbonates d'ammonium)",
+            "name": "Belvita - Petit D\u00e9jeuner - Chocolat & 5 C\u00e9r\u00e9ales Compl\u00e8tes",
+            "desc": "C\u00e9r\u00e9ales 56,3% [c\u00e9r\u00e9ales compl\u00e8tes 39,9% (farine compl\u00e8te de _bl\u00e9_ 20,1%, flocons d'_avoine_ 8,8%, farine compl\u00e8te d'_orge_ 6,4%, farine compl\u00e8te de _seigle_ 3,6%, farine compl\u00e8te d'_\u00e9peautre_ 1%), farine de _bl\u00e9_ 16,4%], sucre, huile de colza, p\u00e9pites de chocolat 12,9% [sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiant (l\u00e9cithine de _soja_)], cacao maigre en poudre 3,4%, amidon de _bl\u00e9_, poudre \u00e0 lever (carbonate acide d'ammonium, diphosphate disodique, carbonate acide de sodium), \u00e9mulsifiants (l\u00e9cithine de _soja_, E472e), ar\u00f4me, sel, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, min\u00e9raux (carbonate de magn\u00e9sium, fer \u00e9l\u00e9mentaire), sucre glace, son de _bl\u00e9_, vitamines [vitamine E, vitamine B1 (thiamine)]",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
+                "Petit-d\u00e9jeuners",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Biscuits au chocolat"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681060494/sables-sesame-pavot-cereal-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/106/0494/front_fr.38.400.jpg",
+            "API_url": "https://fr.openfoodfacts.org/produit/3017760314190/belvita-petit-dejeuner-chocolat-5-cereales-completes",
+            "image_url": "https://static.openfoodfacts.org/images/products/301/776/031/4190/front_fr.3.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:3.8:moderate, fat_100g:15:moderate, salt_100g:0.51:moderate, sugars_100g:28:high "
+        },
+        {
+            "name": "Prince go\u00fbt chocolat",
+            "desc": "C\u00e9r\u00e9ales 49,1 % (farine de _bl\u00e9_ 46.8 %, farine de _seigle_ 4.3 %), Sucre, Mati\u00e8re grasse v\u00e9g\u00e9tale, Cacao maigre en poudre 4.5 %, Sirop de glucose, Amidon de _bl\u00e9_, _Lactose_ et prot\u00e9ines de _lait_, Poudre \u00e0 lever : carbonate acide d'ammonium, carbonate acide de sodium, diphosphate disodique, _Lait entier_ (0.29 %), _lait_ \u00e9cr\u00e9m\u00e9 (0.27 %), _lait_ en poudre (5.1%), \u00c9mulsifiant : l\u00e9cithine de _soja_, Sel, Ar\u00f4me : vanilline.",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Biscuits au chocolat"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/5410041424805/prince-gout-chocolat",
+            "image_url": "https://static.openfoodfacts.org/images/products/541/004/142/4805/front_fr.4.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:5.7:high, fat_100g:17:moderate, salt_100g:0.5:moderate, sugars_100g:32:high "
+        },
+        {
+            "name": "Nesquik",
+            "desc": "Sucre, cacao maigre, dextrose, \u00e9mulsifiant : l\u00e9cithine de _soja_, Min\u00e9raux : pyrophosphate de fer, sulfate de zinc, Vitamines : C, B1, D, Sel, Cannelle, ar\u00f4mes.",
+            "categories": [
+                "Boissons",
+                "Snacks",
+                "Petit-d\u00e9jeuners",
+                "Snacks sucr\u00e9s",
+                "Produits d\u00e9shydrat\u00e9s",
+                "Boissons chaudes",
+                "Chocolats",
+                "Produits lyophilis\u00e9s \u00e0 reconstituer",
+                "Boissons instantan\u00e9es",
+                "Cacaos et chocolats en poudre",
+                "Chocolats en poudre"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3033710065967/nesquik-nestle",
+            "image_url": "https://static.openfoodfacts.org/images/products/303/371/006/5967/front_fr.80.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:8.46:moderate, fat_100g:13.8:moderate, salt_100g:1.08:high, sugars_100g:73.1:high "
+        },
+        {
+            "name": "Kinder Bueno",
+            "desc": "Chocolat au lait 31,5 % (sucre, beurre de cacao, p\u00e2te de cacao, lait \u00e9cr\u00e9m\u00e9 en poudre, beurre concentr\u00e9, \u00e9mulsifiants: l\u00e9cithines [soja], vanilline), sucre, huile de palme, farine de froment, noisettes broy\u00e9es 10,8%, lait \u00e9cr\u00e9m\u00e9 en poudre, lait en poudre, chocolat noir (sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiants: l\u00e9cithines [soja], vanilline), cacao maigre, \u00e9mulsifiants: l\u00e9cithines [soja], poudres \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium), sel, vanilline.",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Confiseries",
+                "Confiseries chocolat\u00e9es",
+                "Barres",
+                "Barres chocolat\u00e9es",
+                "Barres chocolat\u00e9es biscuit\u00e9es",
+                "Barres chocolat\u00e9es biscuit\u00e9es aux noisettes"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/8000500037560/kinder-bueno-ferrero",
+            "image_url": "https://static.openfoodfacts.org/images/products/800/050/003/7560/front_fr.89.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:17.3:high, fat_100g:37.3:high, salt_100g:0.272:low, sugars_100g:41.2:high "
+        },
+        {
+            "name": "Belvita - Petit D\u00e9jeuner - Brut 5 & C\u00e9r\u00e9ales Compl\u00e8tes",
+            "desc": "C\u00e9r\u00e9ales 69.7% [c\u00e9r\u00e9ales compl\u00e8tes 42.6% (flocons de _seigle_ malt\u00e9 17.6%, flocons d'_avoine_ 17.5%,  sarrasin complet concass\u00e9 4.5%, farine compl\u00e8te d'_\u00e9peautre_ 1%, farine compl\u00e8te d'_orge_ 1%,  farine compl\u00e8te de _bl\u00e9_ 1%), farine de _bl\u00e9_ 27.1%], sucre, huile de colza, sucre de canne, poudre \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium, diphosphate disodique), sel, min\u00e9raux (carbonates de magn\u00e9sium, fer \u00e9l\u00e9mentaire), sirop d'orge malt\u00e9, sirop de sucre inverti, \u00e9mulsifiant  (l\u00e9cithine de _soja_), _lait_ \u00e9cr\u00e9m\u00e9 en poudre, vitamines [vitamine E, vitamine B1 (thiamine)]",
+            "categories": [
+                "Snacks",
+                "Petit-d\u00e9jeuners",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3017760515290/belvita-petit-dejeuner-brut-5-cereales-completes",
+            "image_url": "https://static.openfoodfacts.org/images/products/301/776/051/5290/front_fr.58.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:1.3:low, fat_100g:15:moderate, salt_100g:1.4:moderate, sugars_100g:22:high "
+        },
+        {
+            "name": "PRINCE Go\u00fbt CHOCOLAT au Bl\u00e9 Complet.",
+            "desc": "C\u00e9r\u00e9ale 50,7 % (farine de bl\u00e9 35 %, farine de bl\u00e9 compl\u00e8te 15,7 %), sucre, huiles v\u00e9g\u00e9tales (palme, colza), cacao maigre en poudre 4,5 %, sirop de glucose, amidon de bl\u00e9, poudre \u00e0 lever (carbonate acide d'ammonium, carbonate acide de sodium, diphosphate disodique), \u00e9mulsifiants (l\u00e9cithine de soja, l\u00e9cithine de tournesol), sel, lait \u00e9cr\u00e9m\u00e9 en poudre, lactose et prot\u00e9ines de lait, ar\u00f4mes.",
+            "categories": [
+                "Snacks,Snacks sucr\u00e9s,Biscuits et g\u00e2teaux,Biscuits,Biscuits au chocolat"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/7622210449283/prince-gout-chocolat-au-ble-complet-lu",
+            "image_url": "https://static.openfoodfacts.org/images/products/762/221/044/9283/front_fr.263.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:5.6:high, fat_100g:17:moderate, salt_100g:0.58:moderate, sugars_100g:32:high "
+        },
+        {
+            "name": "Chocolat au Lait du Pays Alpin",
+            "desc": "Sucre, beurre de cacao, poudre de _lait_ \u00e9cr\u00e9m\u00e9, p\u00e2te de cacao, lactos\u00e9rum en poudre (_lait_), _beurre_ concentr\u00e9, \u00e9mulsifiant (l\u00e9cithine de _soja_), p\u00e2te de _noisette_, ar\u00f4me naturel.",
+            "categories": [
+                "Snacks,Snacks sucr\u00e9s,Chocolats,Chocolats au lait"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3045140105502/chocolat-au-lait-du-pays-alpin-milka",
+            "image_url": "https://static.openfoodfacts.org/images/products/304/514/010/5502/front_fr.123.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:18:high, fat_100g:29:high, salt_100g:0.37:moderate, sugars_100g:58:high "
+        },
+        {
+            "name": "Biscuit lait chocolat",
+            "desc": "Farine de _bl\u00e9_ 50,1 %, sucre de canne roux, huile de colza 14,2 %, p\u00e9pites de chocolat (9,5%) (p\u00e2te de cacao, sucre, beurre de cacao, \u00e9mulsifiant: l\u00e9cithine de _soja_), germe de _bl\u00e9_ 5,4 %, farine de _lupin_, _lait_ ferment\u00e9 \u00e9cr\u00e9m\u00e9 en poudre 2,3 %, poudres \u00e0 lever (tartrates de potassium, carbonates de sodium, carbonates d'ammonium), fibres d'_avoine_, calcium, magn\u00e9sium, sel de mer, ar\u00f4me naturel de vanille, \u00e9mulsifiant : l\u00e9cithine de colza, prot\u00e9ines de lait, amidon de _bl\u00e9_, vitamines B1, B6, B9, PP et E (_lactose_, prot\u00e9ines de _lait_).",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3175680011534/biscuit-lait-chocolat-gerble",
+            "image_url": "https://static.openfoodfacts.org/images/products/317/568/001/1534/front_fr.71.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:3.2:moderate, fat_100g:19:moderate, salt_100g:0.75:moderate, sugars_100g:25:high "
+        },
+        {
+            "name": "Chocolat noir dessert",
+            "desc": "Sucre, p\u00e2te de cacao (Afrique de l'ouest, Am\u00e9rique du Sud), beurre de cacao, \u00e9mulsifiant (l\u00e9cithine de tournesol), ar\u00f4me naturel de vanille (Madagascar). Traces : fruits \u00e0 coque, lait.",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Chocolats",
+                "Chocolats noirs"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/7613034480996/chocolat-noir-dessert-nestle",
+            "image_url": "https://static.openfoodfacts.org/images/products/761/303/448/0996/front_fr.48.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:20:high, fat_100g:35:high, salt_100g:0:low, sugars_100g:46:high "
+        },
+        {
+            "name": "Pim's Framboise",
+            "desc": "Pr\u00e9paration a la framboise 41% (sirop de glucose-fructose, sucre, pulpe de framboise concentr\u00e9e 2,4% (\u00e9quivalent pulpe de framboise 9,8%), pulpe de framboise 1,2%, jus concentr\u00e9 de groseilles 0,5 % (\u00e9quivalent jus de groseilles 3,6%), correcteurs d'acidit\u00e9 (citrate de sodium, citrate de calcium), acidifiant (acide citrique), g\u00e9lifiant (pectines), ar\u00f4me, \u00e9paississant (gomme xanthane)), chocolat 24,9% (sucre, p\u00e2te de cacao, beurre de cacao, graisses v\u00e9g\u00e9tales (illipe, mangue, sal, karit\u00e9 et palme en proportions variables), ar\u00f4me, \u00e9mulsifiant (l\u00e9cithine de _soja_), lactose et prot\u00e9ines de _lait_), farine de _bl\u00e9_, sucre, _\u0153ufs_, sirop de glucose-fructose, huile de colza, poudres \u00e0 lever (carbonate acide d'ammonium, diphosphate disodique, carbonate acide de sodium), sel, \u00e9mulsifiant (l\u00e9cithine de _soja_).",
+            "categories": [
+                "Snacks",
+                "Desserts",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "G\u00e2teaux"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/5410041040807/pim-s-framboise-lu",
+            "image_url": "https://static.openfoodfacts.org/images/products/541/004/104/0807/front_fr.4.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:6.1:high, fat_100g:12.5:moderate, salt_100g:0.28:low, sugars_100g:49:high "
+        },
+        {
+            "name": "Gerbl\u00e9 s\u00e9same",
+            "desc": "Farine de bl\u00e9 55,1%, sucre de canne roux, huile de colza 14,3%, s\u00e9same toast\u00e9 11,6%, germe de bl\u00e9 5,2%, levain de seigle d\u00e9vitalis\u00e9 en fibres d'avoine, calcium, sel de mer, ar\u00f4me naturel de vanille, magn\u00e9sium, \u00e9mulsifiant : l\u00e9cithines de colza, poudres \u00e0 lever (tartrates de potassium, carbonate de sodium, carbonates d'ammonium), acidifiant : acide malique, prot\u00e9ines de lait, amidon de bl\u00e9, vitamines B1, B6, B9, PP et E (lactose, prot\u00e9ines de lait).",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3175680011480/gerble-sesame",
+            "image_url": "https://static.openfoodfacts.org/images/products/317/568/001/1480/front_fr.113.400.jpg",
             "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:2.3:moderate, fat_100g:23:high, salt_100g:0.24:low, sugars_100g:17:high "
+            "nutrient_100g": "saturated_fat_100g:2.2:moderate, fat_100g:22:high, salt_100g:0.62:moderate, sugars_100g:19:high "
         },
         {
-            "name": "Sabl\u00e9 Noix P\u00e9can Sirop \u00e9rable",
-            "desc": "Farine compl\u00e8te de _bl\u00e9_, farine de _bl\u00e9_, huile de colza, sirop d\u2019\u00e9rable 9,5 %, sucre de canne roux, _noix de p\u00e9can_ 5 %, \ufb01bres de chicor\u00e9e : fructooligosaccharides, \ufb01bre de _bl\u00e9_, amidon de _bl\u00e9_, \u00e9mulsi\ufb01ant : l\u00e9cithines de colza, \ufb01bres d\u2019_avoine_, poudres \u00e0 lever  (diphosphates, carbonates de sodium, carbonates d\u2019ammonium), acidi\ufb01ant : acide malique, sel de mer.",
+            "name": "Biscuit Oreo",
+            "desc": "Farine de _bl\u00e9_, sucre, huiles v\u00e9g\u00e9tales (palme, palmiste), cacao maigre en poudre 4.6%, amidon de _bl\u00e9_, sirop de glucose-fructose, poudre \u00e0 lever (carbonate acide de potassium, carbonate acide d'ammonium, carbonate acide de sodium), sel, \u00e9mulsifiants (l\u00e9cithine de _soja_, l\u00e9cithine de tournesol), ar\u00f4me vanille.",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
+                "S\u00fc\u00dfwaren",
+                "Kekse und Kuchen",
+                "Kekse",
+                "Biscuits cacaot\u00e9s fourr\u00e9s"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681103870/sable-noix-pecan-sirop-erable-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/110/3870/front_fr.25.400.jpg",
+            "API_url": "https://fr.openfoodfacts.org/produit/8410000810004/biscuit-oreo",
+            "image_url": "https://static.openfoodfacts.org/images/products/841/000/081/0004/front_fr.77.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:9.8:high, fat_100g:20:moderate, salt_100g:0.9:moderate, sugars_100g:38:high "
+        },
+        {
+            "name": "Fourr\u00e9s Chocolat noir BIO",
+            "desc": "C\u00e9r\u00e9ales 54%(*farine de _bl\u00e9_, *farine compl\u00e8te de _bl\u00e9_ (15%)), *chocolat noir (25%) (*p\u00e2te de cacao, *sucre de canne non raffin\u00e9, *beurre de cacao), *sucre de canne roux non raffin\u00e9, *huile de tournesol ol\u00e9ique (9,7%), ar\u00f4me naturel de vanille, *_lait_ \u00e9cr\u00e9m\u00e9 en poudre, sel de mer non raffin\u00e9, poudres \u00e0 lever : carbonates d'ammonium et de sodium, \u00e9paississant : *gomme d'acacia, antioxydant, *extraits de romarin.",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Biscuits au chocolat",
+                "Biscuits au chocolat noir"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3229820100234/fourres-chocolat-noir-bio-bjorg",
+            "image_url": "https://static.openfoodfacts.org/images/products/322/982/010/0234/front_fr.67.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:7:high, fat_100g:20:moderate, salt_100g:0.5:moderate, sugars_100g:27:high "
+        },
+        {
+            "name": "Tagada l'originale",
+            "desc": "sucre, sirop de glucose, g\u00e9latine, acide citrique, ar\u00f4me, colorants : curcumine, carmins, carot\u00e8nes v\u00e9g\u00e9taux",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Confiseries",
+                "Bonbons",
+                "Bonbons g\u00e9lifi\u00e9s",
+                "Fraises g\u00e9lifi\u00e9es"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3103220009574/tagada-l-originale-haribo",
+            "image_url": "https://static.openfoodfacts.org/images/products/310/322/000/9574/front_fr.77.400.jpg",
+            "nutriscore": "d",
+            "nutrient_100g": "saturated_fat_100g:0.1:low, fat_100g:0.5:low, salt_100g:0.01:low, sugars_100g:74:high "
+        },
+        {
+            "name": "Le V\u00e9ritable Petit Beurre",
+            "desc": "Farine de _bl\u00e9_ 73,5 %, sucre, _beurre_ 13,6 %, _lait_ \u00e9cr\u00e9m\u00e9 en poudre 1,3 % (\u00e9quivalent _lait_ \u00e9cr\u00e9m\u00e9 13 %), sel, poudre \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium), correcteur d'acidit\u00e9 (acide citrique), ar\u00f4me, sucre glace (sucre, amidon de ma\u00efs)",
+            "categories": [
+                "Snacks",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Petits beurres"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3017760000109/le-veritable-petit-beurre-lu",
+            "image_url": "https://static.openfoodfacts.org/images/products/301/776/000/0109/front_fr.13.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:7.6:high, fat_100g:12:moderate, salt_100g:1.4:moderate, sugars_100g:23:high "
+        },
+        {
+            "name": "Nesquik",
+            "desc": "Sucre, cacao maigre (21,3 %), dextrose, \u00e9mulsifiant : l\u00e9cithine de _soja_, min\u00e9raux :  pyrophosphate de fer, sulfate de zinc, vitamines : C, B1, D.\r\nSel, Cannelle, ar\u00f4mes.",
+            "categories": [
+                "Beverages,Snacks,Breakfasts,Sweet snacks,Hot beverages,Chocolates,Instant beverages,Cocoa and chocolate powders,Chocolate powders"
+            ],
+            "API_url": "https://fr.openfoodfacts.org/produit/3033710065066/nesquik-nestle",
+            "image_url": "https://static.openfoodfacts.org/images/products/303/371/006/5066/front_fr.48.400.jpg",
             "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:1.3:low, fat_100g:14:moderate, salt_100g:0.6:moderate, sugars_100g:14:high "
+            "nutrient_100g": "saturated_fat_100g:1:moderate, fat_100g:1.8:moderate, salt_100g:0.14:low, sugars_100g:9.5:high "
         },
         {
-            "name": "Sabl\u00e9s Miel, Saveur Citron & Sarrasin",
-            "desc": "Farine compl\u00e8te de meule de _bl\u00e9_* (33 %), huile de tournesol ol\u00e9ique*, farine de _bl\u00e9_* (15.2 %), farine int\u00e9grale de sarrasin* (12,8 %), sucre de canne roux*, riz*, miel* (6,1 %), \u00e9mulsifiant : l\u00e9cithines de colza, _avoine_*, ar\u00f4me naturel,  sucre de canne*, sirop de malt d'_orge_*, sel de mer, ar\u00f4me naturel de citron, poudres \u00e0 lever (carbonates d'amonium)",
+            "name": "PiM's L'Original Orange",
+            "desc": "Marmelade d'oranges 41% (sirop de glucose-fructose, sucre, pulpe d'orange 4.5%, jus d'orange concentr\u00e9 1.4% (\u00e9quivalent jus d'orange 7.8%), pulpe d'orange concentr\u00e9e 0.6% (\u00e9quivalent pulpe d'orange 2.6%), g\u00e9lifiant (pectines), acidifiant (acide citrique), correcteurs d'acidit\u00e9 (citrate de calcium, citrate de sodium), ar\u00f4me naturel d'orange, \u00e9paississant (gomme xanthane)), chocolat 24.9% (sucre, p\u00e2te de cacao, beurre de cacao, graisses v\u00e9g\u00e9tales (illipe, mangue, sal, karit\u00e9 et palme en proportions variables), ar\u00f4me, \u00e9mulsifiant (l\u00e9cithine de _soja_), lactose et prot\u00e9ines de _lait_), farine de _bl\u00e9_, sucre, _oeufs_, sirop de glucose-fructose, huile de colza, poudre \u00e0 lever (carbonate acide d'ammonium, diphosphate disodique, carbonate acide de sodium), sel, \u00e9mulsifiant (l\u00e9cithine de _soja_).",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Genoises"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681060524/sables-miel-saveur-citron-sarrasin-cereal-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/106/0524/front_fr.62.400.jpg",
-            "nutriscore": "b",
-            "nutrient_100g": "saturated_fat_100g:1.9:moderate, fat_100g:18:moderate, salt_100g:0.33:moderate, sugars_100g:15:high "
+            "API_url": "https://fr.openfoodfacts.org/produit/5410041005707/pim-s-l-original-orange-lu",
+            "image_url": "https://static.openfoodfacts.org/images/products/541/004/100/5707/front_fr.48.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:6.1:high, fat_100g:12.5:moderate, salt_100g:0.36:moderate, sugars_100g:49:high "
         },
         {
-            "name": "Sabl\u00e9s bio chocolat noir intense",
-            "desc": "Farine int\u00e9grale de meule de _bl\u00e9_* 21%, p\u00e9pites de chocolat* 16,5% (sucre de canne*, p\u00e2te de cacao*, _beurre_ de cacao*), sucre de canne*, farine de _bl\u00e9_*, huile de tournesol ol\u00e9ique*, flocons d'_avoine_ compl\u00e8te* 8,5%, riz*, poudre de cacao maigre*, amidon de _bl\u00e9_*, ar\u00f4me naturel de vanille, \u00e9mulsifiant: l\u00e9cithines de colza, _avoine_*, poudres \u00e0 lever (carbonates d'ammonium, tartrates de potassium, carbonates de sodium), sel marin, sirop de malt d'orge*. Fabriqu\u00e9 dans un atelier qui utilise des _fruits \u00e0 coque_, du _soja_, de l'_oeuf_ et du _lupin_. Source de fibres",
+            "name": "BelVita Miel et P\u00e9pites de Chocolat & 5 c\u00e9r\u00e9ales compl\u00e8tes",
+            "desc": "C\u00e9r\u00e9ales 60.2 % [c\u00e9r\u00e9ales compl\u00e8tes 40.4 % (farine compl\u00e8te de _bl\u00e9_ 20.3 %, flocons d'_avoine_ 10.8 %, farine compl\u00e8te d'_orge_ 4.9 %, farine compl\u00e8te de _seigle_ 3.4 %, farine compl\u00e8te d'_\u00e9peautre_ 1.0 %)], farine de _bl\u00e9_ 19.8 %,  sucre, huile de colza, p\u00e9pites de chocolat 8.6 % (sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiant : l\u00e9cithine de _soja_), miel de fleurs 5.1 %, sirop de  glucose-fructose, poudre \u00e0 lever (carbonate acide de sodium, diphosphate disodique, carbonate acide d\u2019ammonium), ar\u00f4me, sel, min\u00e9raux (carbonates de magn\u00e9sium, fer \u00e9l\u00e9mentaire), \u00e9mulsifiants (l\u00e9cithine de _soja_, E472e), _lait_ \u00e9cr\u00e9m\u00e9 en poudre,  sucre glace, son de _bl\u00e9_, vitamines (vitamine E, vitamine B1).",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits au chocolat",
-                " Biscuits sabl\u00e9s"
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681060586/sables-bio-chocolat-noir-intense-cereal-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/106/0586/front_fr.29.400.jpg",
+            "API_url": "https://fr.openfoodfacts.org/produit/3017760314091/belvita-miel-et-pepites-de-chocolat-5-cereales-completes-lu",
+            "image_url": "https://static.openfoodfacts.org/images/products/301/776/031/4091/front_fr.19.400.jpg",
             "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:6:high, fat_100g:23:high, salt_100g:0.57:moderate, sugars_100g:29:high "
+            "nutrient_100g": "saturated_fat_100g:2.6:moderate, fat_100g:15:moderate, salt_100g:0.7:moderate, sugars_100g:29:high "
         },
         {
-            "name": "Sabl\u00e9s coco citron",
-            "desc": "farine de _bl\u00e9_, sucre de canne roux*, noix de coco* r\u00e2p\u00e9e 24%, huile de colza, beurre (_lait_), _\u0153ufs_*, poudres \u00e0 lever : carbonates de sodium et phosphates de calcium, ar\u00f4me naturel, huile essentielle de citron 0.2%.\r\n*Produits issus de l'agriculture biologique.",
+            "name": "Snickers",
+            "desc": "Sucre, sirop de glucose, _cacahu\u00e8tes_, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, beurre de cacao, p\u00e2te de cacao, _lactose_, huile de tournesol, beurre concentr\u00e9 (_lait_), petit-_lait_ en poudre, mati\u00e8re grasse de palme, sel, \u00e9mulsifiant (l\u00e9cithine de _soja_), blanc d\u2019_\u0153uf_ en poudre, huile de noix de coco, prot\u00e9ine de _lait_ hydrolys\u00e9e, extrait naturel de vanille.",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s",
-                " Sabl\u00e9s \u00e0 la noix de coco"
+                "Snacks sucr\u00e9s",
+                "Confiseries",
+                "Confiseries chocolat\u00e9es",
+                "Barres",
+                "Barres chocolat\u00e9es",
+                "Barres chocolat\u00e9es aux fruits ol\u00e9agineux"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3478820036719/sables-coco-citron-jardin-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/347/882/003/6719/front_fr.21.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:20:high, fat_100g:32:high, salt_100g:0.06:low, sugars_100g:28:high "
+            "API_url": "https://fr.openfoodfacts.org/produit/5000159461122/snickers",
+            "image_url": "https://static.openfoodfacts.org/images/products/500/015/946/1122/front_fr.82.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:8.3:high, fat_100g:22.8:high, salt_100g:0.63:moderate, sugars_100g:51.5:high "
         },
         {
-            "name": "Sabl\u00e9 Nature Graines de Chia",
-            "desc": "Farine int\u00e9grale de _bl\u00e9_, farine de _bl\u00e9_, sucre de canne roux, huile de colza, graines de chia noires 5,5%, fibre de _bl\u00e9_, amidon de _bl\u00e9_; flocons d'_avoine_ complet, ar\u00f4mes naturels, poudres \u00e0 lever, (diphosphates, carbonates de sodium), \u00e9mulsifiant : l\u00e9cithines de colza, sel marin.",
+            "name": "Biscuits p'tit dej au p\u00e9pites de chocolat, abricots et amandes",
+            "desc": "C\u00e9r\u00e9ales 51 % (farine de _bl\u00e9_ 38 %, flocons d'_avoine_ 5 %, son de _bl\u00e9_ 3,8 %, farine de _seigle_ 3,6 %, farine de sarrasin, farine d'_orge_), sucre, graisse et huiles v\u00e9g\u00e9tales (palme, tournesol), p\u00e9pites de chocolat 8 % [sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiant : l\u00e9cithines (_soja_), ar\u00f4me], poudre de _lait_ \u00e9cr\u00e9m\u00e9, miel, p\u00e9pites d'abricots 2,5 % (abricots 97 %, farine de riz, conservateur : _anhydride sulfureux_), _amandes_ hach\u00e9es 2 %, poudre \u00e0 lever : carbonates de sodium, carbonates d'ammonium, diphosphates, ar\u00f4mes, sel, \u00e9mulsifiant : l\u00e9cithines (colza), _lactos\u00e9rum_ en poudre.",
             "categories": [
                 "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
+                "Petit-d\u00e9jeuners",
+                "Snacks sucr\u00e9s",
+                "Biscuits et g\u00e2teaux",
+                "Biscuits",
+                "Biscuits au chocolat",
+                "Biscuits aux c\u00e9r\u00e9ales",
+                "Biscuits petits-d\u00e9jeuners"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681135864/sable-nature-graines-de-chia-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/113/5864/front_fr.16.400.jpg",
-            "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:1.8:moderate, fat_100g:19:moderate, salt_100g:0.5:moderate, sugars_100g:15:high "
-        },
-        {
-            "name": "Sabl\u00e9 Chocolat Framboise",
-            "desc": "Farine de _bl\u00e9_, huile de colza, sucre de canne roux, p\u00e9pites de chocolat 6,8 % (sucre, p\u00e2te de cacao, \u00e9mulsifiant : l\u00e9cithines de _soja_, ar\u00f4me naturel de vanille, beurre de cacao, cacao maigre en poudre), germe de _bl\u00e9_ 5,3%, dextrine de _bl\u00e9_, amidon de _bl\u00e9_, framboises d\u00e9shydrat\u00e9es 1,4% (\u00e9quivalent \u00e0 5,6% de framboises fra\u00eeches), amidon de ma\u00efs, sucre, ar\u00f4me naturel de framboise avec autres ar\u00f4mes naturels, poudres \u00e0 lever (diphosphates, carbonates de sodium), \u00e9mulsifiants (l\u00e9cithine de colza, l\u00e9cithine de tournesol), magn\u00e9sium, sel de mer, vitamines B1, B6 et E (_lactose_, prot\u00e9ines de _lait_).",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681188358/sable-chocolat-framboise-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/118/8358/front_fr.7.400.jpg",
-            "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:2.4:moderate, fat_100g:17:moderate, salt_100g:0.5:moderate, sugars_100g:18:high "
-        },
-        {
-            "name": "Mc Vitie's l'Original",
-            "desc": "Farine de _froment_ (54%) - huile de tournesol - farine compl\u00e8te de _froment_ (16%) - sucre - sirop de sucre partiellement inverti - poudres \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium, acide tartrique, acide malique) - sel - _lait_ \u00e9cr\u00e9m\u00e9 en poudre",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/5000168152615/mc-vitie-s-l-original-mcvitie-s",
-            "image_url": "https://static.openfoodfacts.org/images/products/500/016/815/2615/front_fr.30.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:2:moderate, fat_100g:21.3:high, salt_100g:1.3:moderate, sugars_100g:16.6:high "
-        },
-        {
-            "name": "Sabl\u00e9 saveur Caramel",
-            "desc": "Farine de _bl\u00e9_, \u00e9dulcorant : maltitols d'origine v\u00e9g\u00e9tale, huile de colza, amidon de _bl\u00e9_, fibre de _bl\u00e9_, ar\u00f4me naturel, poudres \u00e0 lever (diphosphates, carbonates de sodium, carbonates d'ammonium), \u00e9mulsifiant : l\u00e9cithines de colza, sel marin, caf\u00e9 soluble d\u00e9caf\u00e9in\u00e9, poudre de cacao maigre ",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681155619/sable-saveur-caramel-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/115/5619/front_fr.7.400.jpg",
-            "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:1.2:low, fat_100g:15:moderate, salt_100g:0.82:moderate, sugars_100g:0:low "
-        },
-        {
-            "name": "Lunettes \u00e0 la myrtille",
-            "desc": "Biscuit : farine de _bl\u00e9_, sucre de canne non raffin\u00e9, farine d'_\u00e9peautre_ compl\u00e8te (19%), _beurre_ concentr\u00e9, _oeufs_, huile de colza, poudres \u00e0 lever : phosphates de calcium et carbonates de sodium.\r\nFourrage myrtille (20%) : sirop de _bl\u00e9_ non raffin\u00e9, sucre mi-blanc de canne, pur\u00e9e de myrtille (20%), g\u00e9lifiant : pectine de fruits, ar\u00f4me naturel, acidifiant : acide citrique.",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s",
-                " Lunettes \u00e0 la myrtille"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3229820789897/lunettes-a-la-myrtille-bjorg",
-            "image_url": "https://static.openfoodfacts.org/images/products/322/982/078/9897/front_fr.23.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:7.9:high, fat_100g:16:moderate, salt_100g:0.1:low, sugars_100g:33:high "
-        },
-        {
-            "name": "Sabl\u00e9 miel datte Gerbl\u00e9",
-            "desc": "Farine de bl\u00e9 48,5%, farine int\u00e9grale de bl\u00e9 17%, huile de colza, miel 5,5%, sucre de canne, cubes de datte 5%, sirop de glucose, farine de riz, farine d\u2019avoine, farine de seigle, farine de ma\u00efs, ar\u00f4me naturel de vanille, poudres \u00e0 lever (diphosphates, carbonates de sodium), sel, \u00e9mulsifiant : l\u00e9cithines de colza, ar\u00f4me naturel de fleur d\u2019oranger avec autres ar\u00f4mes naturels, lactos\u00e9rum (lait), extrait de malt d\u2019orge, cannelle. \r\n",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Desserts",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s",
-                " Sable-miel-datte"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681121232/sable-miel-datte-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/112/1232/front_fr.5.400.jpg",
-            "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:1.4:low, fat_100g:16:moderate, salt_100g:0.65:moderate, sugars_100g:15:high "
-        },
-        {
-            "name": "Sabl\u00e9 Myrtille au germe de riz",
-            "desc": "farine_de_bl\u00e9, huile colza, sucre canne roux, germe riz, dextrine_bl\u00e9_, amidon_bl\u00e9_, myrtilles d\u00e9shydrat\u00e9es, sucre, ar\u00f4me naturel, poudres \u00e0 lever (diphosphates, carbonates de sodium), \u00e9mulsifiant : l\u00e9cithines de colza, magn\u00e9sium, amidon de ma\u00efs, glyc\u00e9rol d'origine v\u00e9g\u00e9tale, dextrose, sel de mer, vitamine B1, B6 et E (_lactose_, prot\u00e9ines de _lait_)",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175681188389/sable-myrtille-au-germe-de-riz-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/118/8389/front_fr.10.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:1.5:moderate, fat_100g:16:moderate, salt_100g:1.4478:moderate, sugars_100g:16:high "
-        },
-        {
-            "name": "Sabl\u00e9s Framboise hibiscus",
-            "desc": "farine de _bl\u00e9_, sucre de canne roux, huile de colza, beurre (_lait_), _\u0153ufs_, sirop de _bl\u00e9_, p\u00e9pites de framboises 2% (\u00e9quivalent fruits : 12%), fleurs d'hibiscus s\u00e9ch\u00e9es 1%, poudres \u00e0 lever : carbonates d'ammonium et carbonates de sodium, poudre de _lait_ \u00e9cr\u00e9m\u00e9, acidifiant : acide citrique, sel de Gu\u00e9rande, ar\u00f4me naturel de framboise.",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3760020506193/sables-framboise-hibiscus-jardin-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/376/002/050/6193/front_fr.7.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:5.6:high, fat_100g:19:moderate, salt_100g:0.31:moderate, sugars_100g:26:high "
-        },
-        {
-            "name": "Galettes bretonnes pur beurre",
-            "desc": "Farine de _bl\u00e9_, sucre, _beurre_ frais 24%, _oeufs_, sel, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, poudre \u00e0 lever : carbonates d`ammonium, ar\u00f4me naturel de vanille.",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3256220271578/galettes-bretonnes-pur-beurre-u",
-            "image_url": "https://static.openfoodfacts.org/images/products/325/622/027/1578/front_fr.9.400.jpg",
-            "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:3.2:moderate, fat_100g:4.7:moderate, salt_100g:0.2:low, sugars_100g:6.8:moderate "
-        },
-        {
-            "name": "Sabl\u00e9s Caramel au sel de Gu\u00e9rande",
-            "desc": "Farine de bl\u00e9*, sucre de canne* roux, huile de colza*, beurre* (lait), \u00e9clats de caramel au beurre sal\u00e9* 7% [sucre*, sirop de glucose*, lait*, beurre* (lait) 10%, sel de Gu\u00e9rande 0,4%], \u0153ufs*, sirop de bl\u00e9*, poudres \u00e0 lever : carbonates d'ammonium et carbonates de sodium, poudre de lait \u00e9cr\u00e9m\u00e9*, ar\u00f4me naturel de caramel avec autres ar\u00f4mes naturels (bl\u00e9, lait), acidifiant : acide citrique, sel de Gu\u00e9rande 0,2%.\r\n*Produits issus de l'agriculture biologique.\r\n",
-            "categories": [
-                "Snacks",
-                " Desserts",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s",
-                " Produits-au-sel-de-guerande",
-                " Sables-caramel-au-sel-de-guerande"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3760020502041/sables-caramel-au-sel-de-guerande-jardin-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/376/002/050/2041/front_fr.22.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:6.2:high, fat_100g:18:moderate, salt_100g:0.35:moderate, sugars_100g:26:high "
-        },
-        {
-            "name": "Galettes Pur Beurre",
-            "desc": "farine de bl\u00e9",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits secs",
-                " Biscuits sabl\u00e9s",
-                " Biscuits \u00e9dulcor\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3760020509958/galettes-pur-beurre-karelea",
-            "image_url": "https://static.openfoodfacts.org/images/products/376/002/050/9958/front_fr.7.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:14:high, fat_100g:21:high, salt_100g:0.7:moderate, sugars_100g:0:low "
-        },
-        {
-            "name": "Sabl\u00e9 de Retz le V\u00e9ritable",
-            "desc": "Farine de _bl\u00e9_ 64%, noix de coco 11%, huile de tournesol non hydrog\u00e9n\u00e9e, poudres \u00e0 lever (carbonates d'ammonium et de sodium, acide citrique), sel, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, \u00e9mulsifiant : l\u00e9cithines.",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3023470010031/sable-de-retz-le-veritable-st-michel",
-            "image_url": "https://static.openfoodfacts.org/images/products/302/347/001/0031/front_fr.18.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:8:high, fat_100g:16:moderate, salt_100g:0.8:moderate, sugars_100g:24:high "
-        },
-        {
-            "name": "Sabl\u00e9s pur beurre napp\u00e9s chocolat noir",
-            "desc": "farine de BLE*, chocolat noir* 25% (p\u00e2te de cacao*, sucre, beurre de cacao*, \u00e9mulsifiant : l\u00e9cithines de tournesol, extrait de vanille*), sucre de canne*, huile de colza*, BEURRE*, poudre de LAIT \u00e9cr\u00e9m\u00e9*, sirop de malt d'ORGE*, noix de coco*, poudres \u00e0 lever : carbonates d'ammonium - carbonates de sodium, sel marin, ar\u00f4me naturel de vanille OEUFS en poudre*. Traces \u00e9ventuelles de soja, de fruits \u00e0 coque, de graines de s\u00e9same et d'arachide. * Ingr\u00e9dient issu de l'agriculture biologique.",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits au chocolat",
-                " Biscuits au chocolat noir",
-                " Biscuits sabl\u00e9s"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3256223264737/sables-pur-beurre-nappes-chocolat-noir-u-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/325/622/326/4737/front_fr.37.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:11:high, fat_100g:25:high, salt_100g:0.61:moderate, sugars_100g:24:high "
-        },
-        {
-            "name": "Sabl\u00e9s pur beurre aux p\u00e9pites de chocolat et flocons d'avoine",
-            "desc": "farine de BLE* (France), sucre roux de canne*, BEURRE*, p\u00e9pites de chocolat noir* 18% (sucre de cane*, p\u00e2te de cacao*, beurre de cacao*), flocons d'AVOINE*14%, huile de colza*, jaune d'OEUF en poudre*, sel marin, poudre \u00e0 lever : carbonates de sodium. Traces \u00e9ventuelles de soja, fruits \u00e0 coque, s\u00e9same et arachide. *Ingr\u00e9dient issu de l'agriculture biologique.",
-            "categories": [
-                "Snacks",
-                " Snacks sucr\u00e9s",
-                " Biscuits et g\u00e2teaux",
-                " Biscuits",
-                " Biscuits au chocolat",
-                " Biscuits sabl\u00e9s",
-                " Biscuits \u00e0 l'avoine"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3256224053361/sables-pur-beurre-aux-pepites-de-chocolat-et-flocons-d-avoine-u-bio",
-            "image_url": "https://static.openfoodfacts.org/images/products/325/622/405/3361/front_fr.31.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:14:high, fat_100g:28:high, salt_100g:0.41:moderate, sugars_100g:27:high "
+            "API_url": "https://fr.openfoodfacts.org/produit/3245411443566/biscuits-p-tit-dej-au-pepites-de-chocolat-abricots-et-amandes-carrefour",
+            "image_url": "https://static.openfoodfacts.org/images/products/324/541/144/3566/front_fr.24.400.jpg",
+            "nutriscore": "e",
+            "nutrient_100g": "saturated_fat_100g:9:high, fat_100g:20:moderate, salt_100g:0.78:moderate, sugars_100g:27:high "
         }
     ]
 }
