@@ -72,7 +72,7 @@
 .nutrient-level.high{
     background-color: var(--danger);
 }
-.nutrient-level.medium{
+.nutrient-level.moderate{
     background-color: var(--warning);
 }
 .nutrient-level.low{
