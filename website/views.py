@@ -3,7 +3,8 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegistrationForm
 from .models.product import Product
-from .controler import Controler as Ctrl
+from .controler import Controler as c
+from .OFF_request import OFFRequest as OFFReq
 
 
 def home(request):
@@ -19,8 +20,16 @@ def result(request):
         THEN: look in database for substitute
         in the same category of product and a lower nutriscore"""
     query = request.GET.get('q')  # retrieve user search query
-    search_prod, substitutes = Ctrl.check_in_database(Ctrl(), query)
-    context = {'search_prod': search_prod, 'products': substitutes}
+    results = c.get_substitutes(c(), query)
+    if not results:
+        OFFReq.run(OFFReq(), query)
+        results = c.get_substitutes(c(), query)
+        if not results:
+            context = {}
+        else:
+            context = {'search_prod': results[0], 'products': results[1]}
+    else:
+        context = {'search_prod': results[0], 'products': results[1]}
     return render(request, 'website/list_product.html', context)
 
 

@@ -120,20 +120,15 @@ class OFFRequest:
         else:
             return None
 
-    def prepare_data(self):
-        search_prod = self.search_prod
-        substitutes = self.substitutes
-        substitutes.append(search_prod)
-        data = {"substitutes": substitutes}
-        self.insert_data(data)
-
     def run(self, search_term):
         """run parser and crawl OFF data to construct a dump of searched product,
         categories and substitutes products. Then serialize and insert this data to database """
         response = self.API_request(search_term, "product")
         products = self.prod_parser(response)
         response = self.API_request(products[0]["categories"][0], "substitute")
-        self.substitutes = self.prod_parser(response)
-        self.search_prod = products[0]
-        return self.search_prod, self.substitutes
+        substitutes = self.prod_parser(response)
+        search_prod = products[0]
+        substitutes.append(search_prod)
+        data = {"substitutes": substitutes}
+        self.insert_data(data)
 
