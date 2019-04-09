@@ -1,322 +1,397 @@
 {
     "substitutes": [
         {
-            "name": "Granola Chocolat au Lait",
-            "desc": "Farine de _bl\u00e9_ 38 %, chocolat au lait 29 % (sucre, p\u00e2te et beurre de cacao, lactose et prot\u00e9ines de _lait_, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, mati\u00e8re grasse v\u00e9g\u00e9tale, _beurre_ p\u00e2tissier, sirop de glucose, \u00e9mulsifiants : l\u00e9cithine de _soja_, E476, ar\u00f4me), mati\u00e8re grasse v\u00e9g\u00e9tale, sucre, farine compl\u00e8te de _bl\u00e9_ 10,5 %, sirop de sucre, poudre \u00e0 lever : carbonate acide de sodium, carbonate acide d'ammonium, sel, acidifiant : acide citrique, son de _bl\u00e9_.",
+            "id": 52,
+            "name": "Le Bon Paris, \u00c0 l'\u00c9touff\u00e9e (6 Tranches)",
+            "desc": "Jambon frais de porc, Bouillon (eau, couennes de porc, oignons, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier) ; sel, dextrose de ma\u00efs, ar\u00f4mes naturels, Conservateur (nitrite de sodium) ; Antioxydant (isoascorbate de sodium).",
             "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Biscuits au chocolat",
-                "Biscuits au chocolat au lait"
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Produits sans gluten",
+                "Charcuteries cuites",
+                "Jambons blancs"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3017760826174/granola-chocolat-au-lait-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/301/776/082/6174/front_fr.5.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:13:high, fat_100g:24:high, salt_100g:1.1938:moderate, sugars_100g:30:high "
-        },
-        {
-            "name": "Belvita - Petit D\u00e9jeuner - Chocolat & 5 C\u00e9r\u00e9ales Compl\u00e8tes",
-            "desc": "C\u00e9r\u00e9ales 56,3% [c\u00e9r\u00e9ales compl\u00e8tes 39,9% (farine compl\u00e8te de _bl\u00e9_ 20,1%, flocons d'_avoine_ 8,8%, farine compl\u00e8te d'_orge_ 6,4%, farine compl\u00e8te de _seigle_ 3,6%, farine compl\u00e8te d'_\u00e9peautre_ 1%), farine de _bl\u00e9_ 16,4%], sucre, huile de colza, p\u00e9pites de chocolat 12,9% [sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiant (l\u00e9cithine de _soja_)], cacao maigre en poudre 3,4%, amidon de _bl\u00e9_, poudre \u00e0 lever (carbonate acide d'ammonium, diphosphate disodique, carbonate acide de sodium), \u00e9mulsifiants (l\u00e9cithine de _soja_, E472e), ar\u00f4me, sel, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, min\u00e9raux (carbonate de magn\u00e9sium, fer \u00e9l\u00e9mentaire), sucre glace, son de _bl\u00e9_, vitamines [vitamine E, vitamine B1 (thiamine)]",
-            "categories": [
-                "Snacks",
-                "Petit-d\u00e9jeuners",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Biscuits au chocolat"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3017760314190/belvita-petit-dejeuner-chocolat-5-cereales-completes",
-            "image_url": "https://static.openfoodfacts.org/images/products/301/776/031/4190/front_fr.3.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:3.8:moderate, fat_100g:15:moderate, salt_100g:0.51:moderate, sugars_100g:28:high "
-        },
-        {
-            "name": "Prince go\u00fbt chocolat",
-            "desc": "C\u00e9r\u00e9ales 49,1 % (farine de _bl\u00e9_ 46.8 %, farine de _seigle_ 4.3 %), Sucre, Mati\u00e8re grasse v\u00e9g\u00e9tale, Cacao maigre en poudre 4.5 %, Sirop de glucose, Amidon de _bl\u00e9_, _Lactose_ et prot\u00e9ines de _lait_, Poudre \u00e0 lever : carbonate acide d'ammonium, carbonate acide de sodium, diphosphate disodique, _Lait entier_ (0.29 %), _lait_ \u00e9cr\u00e9m\u00e9 (0.27 %), _lait_ en poudre (5.1%), \u00c9mulsifiant : l\u00e9cithine de _soja_, Sel, Ar\u00f4me : vanilline.",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Biscuits au chocolat"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/5410041424805/prince-gout-chocolat",
-            "image_url": "https://static.openfoodfacts.org/images/products/541/004/142/4805/front_fr.4.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:5.7:high, fat_100g:17:moderate, salt_100g:0.5:moderate, sugars_100g:32:high "
-        },
-        {
-            "name": "Nesquik",
-            "desc": "Sucre, cacao maigre, dextrose, \u00e9mulsifiant : l\u00e9cithine de _soja_, Min\u00e9raux : pyrophosphate de fer, sulfate de zinc, Vitamines : C, B1, D, Sel, Cannelle, ar\u00f4mes.",
-            "categories": [
-                "Boissons",
-                "Snacks",
-                "Petit-d\u00e9jeuners",
-                "Snacks sucr\u00e9s",
-                "Produits d\u00e9shydrat\u00e9s",
-                "Boissons chaudes",
-                "Chocolats",
-                "Produits lyophilis\u00e9s \u00e0 reconstituer",
-                "Boissons instantan\u00e9es",
-                "Cacaos et chocolats en poudre",
-                "Chocolats en poudre"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3033710065967/nesquik-nestle",
-            "image_url": "https://static.openfoodfacts.org/images/products/303/371/006/5967/front_fr.80.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:8.46:moderate, fat_100g:13.8:moderate, salt_100g:1.08:high, sugars_100g:73.1:high "
-        },
-        {
-            "name": "Kinder Bueno",
-            "desc": "Chocolat au lait 31,5 % (sucre, beurre de cacao, p\u00e2te de cacao, lait \u00e9cr\u00e9m\u00e9 en poudre, beurre concentr\u00e9, \u00e9mulsifiants: l\u00e9cithines [soja], vanilline), sucre, huile de palme, farine de froment, noisettes broy\u00e9es 10,8%, lait \u00e9cr\u00e9m\u00e9 en poudre, lait en poudre, chocolat noir (sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiants: l\u00e9cithines [soja], vanilline), cacao maigre, \u00e9mulsifiants: l\u00e9cithines [soja], poudres \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium), sel, vanilline.",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Confiseries",
-                "Confiseries chocolat\u00e9es",
-                "Barres",
-                "Barres chocolat\u00e9es",
-                "Barres chocolat\u00e9es biscuit\u00e9es",
-                "Barres chocolat\u00e9es biscuit\u00e9es aux noisettes"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/8000500037560/kinder-bueno-ferrero",
-            "image_url": "https://static.openfoodfacts.org/images/products/800/050/003/7560/front_fr.89.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:17.3:high, fat_100g:37.3:high, salt_100g:0.272:low, sugars_100g:41.2:high "
-        },
-        {
-            "name": "Belvita - Petit D\u00e9jeuner - Brut 5 & C\u00e9r\u00e9ales Compl\u00e8tes",
-            "desc": "C\u00e9r\u00e9ales 69.7% [c\u00e9r\u00e9ales compl\u00e8tes 42.6% (flocons de _seigle_ malt\u00e9 17.6%, flocons d'_avoine_ 17.5%,  sarrasin complet concass\u00e9 4.5%, farine compl\u00e8te d'_\u00e9peautre_ 1%, farine compl\u00e8te d'_orge_ 1%,  farine compl\u00e8te de _bl\u00e9_ 1%), farine de _bl\u00e9_ 27.1%], sucre, huile de colza, sucre de canne, poudre \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium, diphosphate disodique), sel, min\u00e9raux (carbonates de magn\u00e9sium, fer \u00e9l\u00e9mentaire), sirop d'orge malt\u00e9, sirop de sucre inverti, \u00e9mulsifiant  (l\u00e9cithine de _soja_), _lait_ \u00e9cr\u00e9m\u00e9 en poudre, vitamines [vitamine E, vitamine B1 (thiamine)]",
-            "categories": [
-                "Snacks",
-                "Petit-d\u00e9jeuners",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3017760515290/belvita-petit-dejeuner-brut-5-cereales-completes",
-            "image_url": "https://static.openfoodfacts.org/images/products/301/776/051/5290/front_fr.58.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:1.3:low, fat_100g:15:moderate, salt_100g:1.4:moderate, sugars_100g:22:high "
-        },
-        {
-            "name": "PRINCE Go\u00fbt CHOCOLAT au Bl\u00e9 Complet.",
-            "desc": "C\u00e9r\u00e9ale 50,7 % (farine de bl\u00e9 35 %, farine de bl\u00e9 compl\u00e8te 15,7 %), sucre, huiles v\u00e9g\u00e9tales (palme, colza), cacao maigre en poudre 4,5 %, sirop de glucose, amidon de bl\u00e9, poudre \u00e0 lever (carbonate acide d'ammonium, carbonate acide de sodium, diphosphate disodique), \u00e9mulsifiants (l\u00e9cithine de soja, l\u00e9cithine de tournesol), sel, lait \u00e9cr\u00e9m\u00e9 en poudre, lactose et prot\u00e9ines de lait, ar\u00f4mes.",
-            "categories": [
-                "Snacks,Snacks sucr\u00e9s,Biscuits et g\u00e2teaux,Biscuits,Biscuits au chocolat"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/7622210449283/prince-gout-chocolat-au-ble-complet-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/762/221/044/9283/front_fr.263.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:5.6:high, fat_100g:17:moderate, salt_100g:0.58:moderate, sugars_100g:32:high "
-        },
-        {
-            "name": "Chocolat au Lait du Pays Alpin",
-            "desc": "Sucre, beurre de cacao, poudre de _lait_ \u00e9cr\u00e9m\u00e9, p\u00e2te de cacao, lactos\u00e9rum en poudre (_lait_), _beurre_ concentr\u00e9, \u00e9mulsifiant (l\u00e9cithine de _soja_), p\u00e2te de _noisette_, ar\u00f4me naturel.",
-            "categories": [
-                "Snacks,Snacks sucr\u00e9s,Chocolats,Chocolats au lait"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3045140105502/chocolat-au-lait-du-pays-alpin-milka",
-            "image_url": "https://static.openfoodfacts.org/images/products/304/514/010/5502/front_fr.123.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:18:high, fat_100g:29:high, salt_100g:0.37:moderate, sugars_100g:58:high "
-        },
-        {
-            "name": "Biscuit lait chocolat",
-            "desc": "Farine de _bl\u00e9_ 50,1 %, sucre de canne roux, huile de colza 14,2 %, p\u00e9pites de chocolat (9,5%) (p\u00e2te de cacao, sucre, beurre de cacao, \u00e9mulsifiant: l\u00e9cithine de _soja_), germe de _bl\u00e9_ 5,4 %, farine de _lupin_, _lait_ ferment\u00e9 \u00e9cr\u00e9m\u00e9 en poudre 2,3 %, poudres \u00e0 lever (tartrates de potassium, carbonates de sodium, carbonates d'ammonium), fibres d'_avoine_, calcium, magn\u00e9sium, sel de mer, ar\u00f4me naturel de vanille, \u00e9mulsifiant : l\u00e9cithine de colza, prot\u00e9ines de lait, amidon de _bl\u00e9_, vitamines B1, B6, B9, PP et E (_lactose_, prot\u00e9ines de _lait_).",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175680011534/biscuit-lait-chocolat-gerble",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/001/1534/front_fr.71.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:3.2:moderate, fat_100g:19:moderate, salt_100g:0.75:moderate, sugars_100g:25:high "
-        },
-        {
-            "name": "Chocolat noir dessert",
-            "desc": "Sucre, p\u00e2te de cacao (Afrique de l'ouest, Am\u00e9rique du Sud), beurre de cacao, \u00e9mulsifiant (l\u00e9cithine de tournesol), ar\u00f4me naturel de vanille (Madagascar). Traces : fruits \u00e0 coque, lait.",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Chocolats",
-                "Chocolats noirs"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/7613034480996/chocolat-noir-dessert-nestle",
-            "image_url": "https://static.openfoodfacts.org/images/products/761/303/448/0996/front_fr.48.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:20:high, fat_100g:35:high, salt_100g:0:low, sugars_100g:46:high "
-        },
-        {
-            "name": "Pim's Framboise",
-            "desc": "Pr\u00e9paration a la framboise 41% (sirop de glucose-fructose, sucre, pulpe de framboise concentr\u00e9e 2,4% (\u00e9quivalent pulpe de framboise 9,8%), pulpe de framboise 1,2%, jus concentr\u00e9 de groseilles 0,5 % (\u00e9quivalent jus de groseilles 3,6%), correcteurs d'acidit\u00e9 (citrate de sodium, citrate de calcium), acidifiant (acide citrique), g\u00e9lifiant (pectines), ar\u00f4me, \u00e9paississant (gomme xanthane)), chocolat 24,9% (sucre, p\u00e2te de cacao, beurre de cacao, graisses v\u00e9g\u00e9tales (illipe, mangue, sal, karit\u00e9 et palme en proportions variables), ar\u00f4me, \u00e9mulsifiant (l\u00e9cithine de _soja_), lactose et prot\u00e9ines de _lait_), farine de _bl\u00e9_, sucre, _\u0153ufs_, sirop de glucose-fructose, huile de colza, poudres \u00e0 lever (carbonate acide d'ammonium, diphosphate disodique, carbonate acide de sodium), sel, \u00e9mulsifiant (l\u00e9cithine de _soja_).",
-            "categories": [
-                "Snacks",
-                "Desserts",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "G\u00e2teaux"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/5410041040807/pim-s-framboise-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/541/004/104/0807/front_fr.4.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:6.1:high, fat_100g:12.5:moderate, salt_100g:0.28:low, sugars_100g:49:high "
-        },
-        {
-            "name": "Gerbl\u00e9 s\u00e9same",
-            "desc": "Farine de bl\u00e9 55,1%, sucre de canne roux, huile de colza 14,3%, s\u00e9same toast\u00e9 11,6%, germe de bl\u00e9 5,2%, levain de seigle d\u00e9vitalis\u00e9 en fibres d'avoine, calcium, sel de mer, ar\u00f4me naturel de vanille, magn\u00e9sium, \u00e9mulsifiant : l\u00e9cithines de colza, poudres \u00e0 lever (tartrates de potassium, carbonate de sodium, carbonates d'ammonium), acidifiant : acide malique, prot\u00e9ines de lait, amidon de bl\u00e9, vitamines B1, B6, B9, PP et E (lactose, prot\u00e9ines de lait).",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3175680011480/gerble-sesame",
-            "image_url": "https://static.openfoodfacts.org/images/products/317/568/001/1480/front_fr.113.400.jpg",
+            "API_link": "https://fr.openfoodfacts.org/produit/7613034232465/le-bon-paris-a-l-etouffee-6-tranches-herta",
+            "photo": "https://static.openfoodfacts.org/images/products/761/303/423/2465/front_fr.6.400.jpg",
             "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:2.2:moderate, fat_100g:22:high, salt_100g:0.62:moderate, sugars_100g:19:high "
+            "nutrient_100g": "saturated_fat_100g:1:low, fat_100g:2.5:low, salt_100g:1.8288:high, sugars_100g:0.5:low "
         },
         {
-            "name": "Biscuit Oreo",
-            "desc": "Farine de _bl\u00e9_, sucre, huiles v\u00e9g\u00e9tales (palme, palmiste), cacao maigre en poudre 4.6%, amidon de _bl\u00e9_, sirop de glucose-fructose, poudre \u00e0 lever (carbonate acide de potassium, carbonate acide d'ammonium, carbonate acide de sodium), sel, \u00e9mulsifiants (l\u00e9cithine de _soja_, l\u00e9cithine de tournesol), ar\u00f4me vanille.",
+            "id": 53,
+            "name": "10 Original Knacki, 100 % Pur Porc",
+            "desc": "Viande de porc, eau, gras de porc, _lactose_, sel, prot\u00e9ines de _lait_, ar\u00f4me (_c\u00e9leri_), fibre de _bl\u00e9_, levure, prot\u00e9ines de pois, dextrose, colorants : carmins, extrait de paprika, antioxydant : isoascorbate de sodium, cconservateur : nitrite de sodium, ferment, fum\u00e9e. Porc : 76 %.",
             "categories": [
-                "Snacks",
-                "S\u00fc\u00dfwaren",
-                "Kekse und Kuchen",
-                "Kekse",
-                "Biscuits cacaot\u00e9s fourr\u00e9s"
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Saucisses",
+                "Saucisses fran\u00e7aises",
+                "Porc",
+                "Saucisses de Strasbourg",
+                "Knacks industrielles"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/8410000810004/biscuit-oreo",
-            "image_url": "https://static.openfoodfacts.org/images/products/841/000/081/0004/front_fr.77.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:9.8:high, fat_100g:20:moderate, salt_100g:0.9:moderate, sugars_100g:38:high "
-        },
-        {
-            "name": "Fourr\u00e9s Chocolat noir BIO",
-            "desc": "C\u00e9r\u00e9ales 54%(*farine de _bl\u00e9_, *farine compl\u00e8te de _bl\u00e9_ (15%)), *chocolat noir (25%) (*p\u00e2te de cacao, *sucre de canne non raffin\u00e9, *beurre de cacao), *sucre de canne roux non raffin\u00e9, *huile de tournesol ol\u00e9ique (9,7%), ar\u00f4me naturel de vanille, *_lait_ \u00e9cr\u00e9m\u00e9 en poudre, sel de mer non raffin\u00e9, poudres \u00e0 lever : carbonates d'ammonium et de sodium, \u00e9paississant : *gomme d'acacia, antioxydant, *extraits de romarin.",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Biscuits au chocolat",
-                "Biscuits au chocolat noir"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3229820100234/fourres-chocolat-noir-bio-bjorg",
-            "image_url": "https://static.openfoodfacts.org/images/products/322/982/010/0234/front_fr.67.400.jpg",
+            "API_link": "https://fr.openfoodfacts.org/produit/7613034055958/10-original-knacki-100-pur-porc-herta",
+            "photo": "https://static.openfoodfacts.org/images/products/761/303/405/5958/front_fr.7.400.jpg",
             "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:7:high, fat_100g:20:moderate, salt_100g:0.5:moderate, sugars_100g:27:high "
+            "nutrient_100g": "saturated_fat_100g:9:high, fat_100g:23:high, salt_100g:1.8288:high, sugars_100g:2:low "
         },
         {
-            "name": "Tagada l'originale",
-            "desc": "sucre, sirop de glucose, g\u00e9latine, acide citrique, ar\u00f4me, colorants : curcumine, carmins, carot\u00e8nes v\u00e9g\u00e9taux",
+            "id": 54,
+            "name": "L'escalope Cordon Bleu de Poulet x2",
+            "desc": "Viande de poulet trait\u00e9e en salaison: 58 % (viande de poulet : 49%, eau, fibres de ble, sel, dextrose de bl\u00e9, sucre, ar\u00f4me naturel), panure : 22% (eau, farine de ble, levure, sel, \u00e9pices), jambon de dinde standard fum\u00e9 : 10% (viande de dinde : 8%, eau, ar\u00f4mes naturels, dextrose de bl\u00e9, sel, ferments, antioxydant : ascorbate de sodium), emmental fondu : 10 % (emmental: 5%, fromages, prot\u00e9ines de lait, eau, beurrre, sel, sels \u00e9mulsifiants : citrates de sodium, polyphosphates). huile de tournesol.",
             "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Confiseries",
-                "Bonbons",
-                "Bonbons g\u00e9lifi\u00e9s",
-                "Fraises g\u00e9lifi\u00e9es"
+                "Viandes",
+                "Produits pan\u00e9s",
+                "Pr\u00e9parations de viande",
+                "Cordons bleus",
+                "Cordons bleus de poulet"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3103220009574/tagada-l-originale-haribo",
-            "image_url": "https://static.openfoodfacts.org/images/products/310/322/000/9574/front_fr.77.400.jpg",
-            "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:0.1:low, fat_100g:0.5:low, salt_100g:0.01:low, sugars_100g:74:high "
-        },
-        {
-            "name": "Le V\u00e9ritable Petit Beurre",
-            "desc": "Farine de _bl\u00e9_ 73,5 %, sucre, _beurre_ 13,6 %, _lait_ \u00e9cr\u00e9m\u00e9 en poudre 1,3 % (\u00e9quivalent _lait_ \u00e9cr\u00e9m\u00e9 13 %), sel, poudre \u00e0 lever (carbonate acide de sodium, carbonate acide d'ammonium), correcteur d'acidit\u00e9 (acide citrique), ar\u00f4me, sucre glace (sucre, amidon de ma\u00efs)",
-            "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Petits beurres"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3017760000109/le-veritable-petit-beurre-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/301/776/000/0109/front_fr.13.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:7.6:high, fat_100g:12:moderate, salt_100g:1.4:moderate, sugars_100g:23:high "
-        },
-        {
-            "name": "Nesquik",
-            "desc": "Sucre, cacao maigre (21,3 %), dextrose, \u00e9mulsifiant : l\u00e9cithine de _soja_, min\u00e9raux :  pyrophosphate de fer, sulfate de zinc, vitamines : C, B1, D.\r\nSel, Cannelle, ar\u00f4mes.",
-            "categories": [
-                "Beverages,Snacks,Breakfasts,Sweet snacks,Hot beverages,Chocolates,Instant beverages,Cocoa and chocolate powders,Chocolate powders"
-            ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3033710065066/nesquik-nestle",
-            "image_url": "https://static.openfoodfacts.org/images/products/303/371/006/5066/front_fr.48.400.jpg",
+            "API_link": "https://fr.openfoodfacts.org/produit/3266980033613/l-escalope-cordon-bleu-de-poulet-x2-le-gaulois",
+            "photo": "https://static.openfoodfacts.org/images/products/326/698/003/3613/front_fr.82.400.jpg",
             "nutriscore": "c",
-            "nutrient_100g": "saturated_fat_100g:1:moderate, fat_100g:1.8:moderate, salt_100g:0.14:low, sugars_100g:9.5:high "
+            "nutrient_100g": "saturated_fat_100g:3.4:moderate, fat_100g:13:moderate, salt_100g:1.2:moderate, sugars_100g:2.1:low "
         },
         {
-            "name": "PiM's L'Original Orange",
-            "desc": "Marmelade d'oranges 41% (sirop de glucose-fructose, sucre, pulpe d'orange 4.5%, jus d'orange concentr\u00e9 1.4% (\u00e9quivalent jus d'orange 7.8%), pulpe d'orange concentr\u00e9e 0.6% (\u00e9quivalent pulpe d'orange 2.6%), g\u00e9lifiant (pectines), acidifiant (acide citrique), correcteurs d'acidit\u00e9 (citrate de calcium, citrate de sodium), ar\u00f4me naturel d'orange, \u00e9paississant (gomme xanthane)), chocolat 24.9% (sucre, p\u00e2te de cacao, beurre de cacao, graisses v\u00e9g\u00e9tales (illipe, mangue, sal, karit\u00e9 et palme en proportions variables), ar\u00f4me, \u00e9mulsifiant (l\u00e9cithine de _soja_), lactose et prot\u00e9ines de _lait_), farine de _bl\u00e9_, sucre, _oeufs_, sirop de glucose-fructose, huile de colza, poudre \u00e0 lever (carbonate acide d'ammonium, diphosphate disodique, carbonate acide de sodium), sel, \u00e9mulsifiant (l\u00e9cithine de _soja_).",
+            "id": 55,
+            "name": "Jambon de Paris, Cuit \u00e0 l'\u00e9touff\u00e9e (4 Tranches)",
+            "desc": "Jambon de porc, bouillon de porc (eau, os et viande de porc), acidifiant : lactate de potassium, sel, sirop de glucose, dextrose, antioxydant : \u00e9rythorbate de sodium, conservateur : nitrite de sodium.\r\n",
             "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Genoises"
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Charcuteries cuites",
+                "Jambons blancs"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/5410041005707/pim-s-l-original-orange-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/541/004/100/5707/front_fr.48.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:6.1:high, fat_100g:12.5:moderate, salt_100g:0.36:moderate, sugars_100g:49:high "
+            "API_link": "https://fr.openfoodfacts.org/produit/3270190200802/jambon-de-paris-cuit-a-l-etouffee-4-tranches-carrefour",
+            "photo": "https://static.openfoodfacts.org/images/products/327/019/020/0802/front_fr.27.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:1.1:low, fat_100g:3:moderate, salt_100g:1.9:high, sugars_100g:1.2:low "
         },
         {
-            "name": "BelVita Miel et P\u00e9pites de Chocolat & 5 c\u00e9r\u00e9ales compl\u00e8tes",
-            "desc": "C\u00e9r\u00e9ales 60.2 % [c\u00e9r\u00e9ales compl\u00e8tes 40.4 % (farine compl\u00e8te de _bl\u00e9_ 20.3 %, flocons d'_avoine_ 10.8 %, farine compl\u00e8te d'_orge_ 4.9 %, farine compl\u00e8te de _seigle_ 3.4 %, farine compl\u00e8te d'_\u00e9peautre_ 1.0 %)], farine de _bl\u00e9_ 19.8 %,  sucre, huile de colza, p\u00e9pites de chocolat 8.6 % (sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiant : l\u00e9cithine de _soja_), miel de fleurs 5.1 %, sirop de  glucose-fructose, poudre \u00e0 lever (carbonate acide de sodium, diphosphate disodique, carbonate acide d\u2019ammonium), ar\u00f4me, sel, min\u00e9raux (carbonates de magn\u00e9sium, fer \u00e9l\u00e9mentaire), \u00e9mulsifiants (l\u00e9cithine de _soja_, E472e), _lait_ \u00e9cr\u00e9m\u00e9 en poudre,  sucre glace, son de _bl\u00e9_, vitamines (vitamine E, vitamine B1).",
+            "id": 56,
+            "name": "Le Bon Paris, \u00c0 l'\u00c9touff\u00e9e (2 Tranches)",
+            "desc": "Jambon frais de porc, Bouillon (eau, couennes de porc, oignon, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier) ; sel, dextrose de ma\u00efs, ar\u00f4mes naturels, Conservateur (nitrite de sodium) ; Antioxydant (isoascorbate de sodium).",
             "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits"
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Charcuteries cuites",
+                "Jambons blancs"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3017760314091/belvita-miel-et-pepites-de-chocolat-5-cereales-completes-lu",
-            "image_url": "https://static.openfoodfacts.org/images/products/301/776/031/4091/front_fr.19.400.jpg",
+            "API_link": "https://fr.openfoodfacts.org/produit/3154230043171/le-bon-paris-a-l-etouffee-2-tranches-herta",
+            "photo": "https://static.openfoodfacts.org/images/products/315/423/004/3171/front_fr.6.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:1:low, fat_100g:2.5:low, salt_100g:1.8288:high, sugars_100g:0.5:low "
+        },
+        {
+            "id": 57,
+            "name": "Le Ravioli, Pur B\u0153uf",
+            "desc": "SAUCE : eau, concentr\u00e9 de tomate 6 %, l\u00e9gumes (oignons, carottes), viande de b\u0153uf, huile de colza, sel , sucre, amidon transform\u00e9 de ma\u00efs, ar\u00f4me (dont _lait_), aromate.\r\nP\u00c2TE : semoule de bl\u00e9 dur, eau, traces de blanc d'_\u0153uf_.\r\nFARCE : viande de b\u0153uf 4 %, chapelure (farine de _bl\u00e9_, sel, huile de colza, levure, paprika), l\u00e9gumes (carottes, oignons), sel.\r\nViande de b\u0153uf mise en \u0153uvre : 7,5 % du poids net total.",
+            "categories": [
+                "Aliments et boissons \u00e0 base de v\u00e9g\u00e9taux",
+                "Aliments d'origine v\u00e9g\u00e9tale",
+                "Conserves",
+                "C\u00e9r\u00e9ales et pommes de terre",
+                "C\u00e9r\u00e9ales et d\u00e9riv\u00e9s",
+                "Plats pr\u00e9par\u00e9s",
+                "Produits \u00e0 la viande",
+                "Plats pr\u00e9par\u00e9s \u00e0 la viande",
+                "Plats \u00e0 base de p\u00e2tes",
+                "P\u00e2tes alimentaires",
+                "P\u00e2tes farcies",
+                "Plats au b\u0153uf",
+                "Ravioli",
+                "Plats pr\u00e9par\u00e9s en conserve",
+                "Raviolis au b\u0153uf",
+                "Ravioli en conserve"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3038352880305/le-ravioli-pur-boeuf-panzani",
+            "photo": "https://static.openfoodfacts.org/images/products/303/835/288/0305/front_fr.70.400.jpg",
+            "nutriscore": "b",
+            "nutrient_100g": "saturated_fat_100g:0.8:low, fat_100g:2.3:low, salt_100g:0.9:moderate, sugars_100g:1.4:low "
+        },
+        {
+            "id": 58,
+            "name": "Le Jambon Sup\u00e9rieur avec Couenne",
+            "desc": "viande de porc, gras de porc, couenne de porc, sel nitrit\u00e9 pour saumure (sel, conservateur : nitrite de sodium), extraits d'\u00e9pices, \u00e9pices, dextrose, antioxydant : ascorbate de sodium.",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Jambons blancs"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/20021030/le-jambon-superieur-avec-couenne-saint-alby",
+            "photo": "https://static.openfoodfacts.org/images/products/20021030/front_fr.33.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:1.9:moderate, fat_100g:5:moderate, salt_100g:1.9:high, sugars_100g:0.5:low "
+        },
+        {
+            "id": 59,
+            "name": "Le Pur B\u0153uf",
+            "desc": "100% pur viande de b\u0153uf",
+            "categories": [
+                "Viandes",
+                "Surgel\u00e9s",
+                "B\u0153uf",
+                "Viandes surgel\u00e9es",
+                "Steaks",
+                "Steaks de b\u0153uf",
+                "Steaks surgel\u00e9s",
+                "Steaks hach\u00e9s",
+                "Steaks hach\u00e9s surgel\u00e9s",
+                "Steaks de b\u0153uf hach\u00e9s",
+                "Steaks hach\u00e9s de b\u0153uf surgel\u00e9s"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3227061000023/le-pur-boeuf-charal",
+            "photo": "https://static.openfoodfacts.org/images/products/322/706/100/0023/front_fr.6.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:6.3:high, fat_100g:15:moderate, salt_100g:0.2:low, sugars_100g:0:low "
+        },
+        {
+            "id": 60,
+            "name": "Le Bon Paris, - 25 % sel",
+            "desc": "Jambon frais de porc, Bouillon : eau, couennes de porc, oignons, os de porc, carottes, sel, Epices et Ar\u00f4mates ; Sel, Dextrose, de _ma\u00efs_, Ar\u00f4mes, Conservateurs : nitrite de sodium; Chlorure de potassium, Antioxydant : isoascorbate de sodium.",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Jambons",
+                "Produits \u00e0 teneur r\u00e9duite en sel",
+                "Jambons blancs",
+                "Charcuteries \u00e0 teneur r\u00e9duite en sel",
+                "Jambons blancs \u00e0 teneur r\u00e9duite en sel"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3154230030294/le-bon-paris-25-sel-herta",
+            "photo": "https://static.openfoodfacts.org/images/products/315/423/003/0294/front_fr.26.400.jpg",
+            "nutriscore": "b",
+            "nutrient_100g": "saturated_fat_100g:1:low, fat_100g:2.5:low, salt_100g:1.4:moderate, sugars_100g:0.4:low "
+        },
+        {
+            "id": 61,
+            "name": "Jambon de Paris",
+            "desc": "Jambon de porc, sel, sirop de glucose, ar\u00f4mes, dextrose, acidifiant : lactate de potassium, antioxydant : \u00e9rythorbate de sodium, conservateur : nitrite de sodium.",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Jambons blancs"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/20345365/jambon-de-paris-saint-alby",
+            "photo": "https://static.openfoodfacts.org/images/products/20345365/front_fr.56.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:1.3:low, fat_100g:3.4:moderate, salt_100g:2:high, sugars_100g:1.2:low "
+        },
+        {
+            "id": 62,
+            "name": "Filet de Poulet R\u00f4ti (4 Tranches \u00c9paisses)",
+            "desc": "Filet de poulet, sel, bouillons (eau, os de poulet, sel, \u00e9pices, carotte, _c\u00e9leri_, oignon, poireau, plantes aromatiques), dextrose de ma\u00efs, condiment, extrait de levure, _c\u00e9leri_, conservateur : nitrite de sodium, colorant : caramel ordinaire.",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Volailles",
+                "Poulets",
+                "Filets de poulet"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3095752126013/filet-de-poulet-roti-4-tranches-epaisses-fleury-michon",
+            "photo": "https://static.openfoodfacts.org/images/products/309/575/212/6013/front_fr.7.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:0.7:low, fat_100g:2.4:low, salt_100g:1.7:high, sugars_100g:1.1:low "
+        },
+        {
+            "id": 63,
+            "name": "Le Bon Paris, Plaisir & L\u00e9g\u00e8ret\u00e9 (4 Tranches Fines)",
+            "desc": "Jambon frais de porc, bouillon (eau, couennes de porc, oignons, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier) ; sel, dextrose de ma\u00efs, ar\u00f4mes naturels, Conservateur (nitrite de sodium) ; Antioxydant (isoascorbate de sodium).",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Produits sans gluten",
+                "Charcuteries cuites",
+                "Jambons blancs"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/7613033636905/le-bon-paris-plaisir-legerete-4-tranches-fines-herta",
+            "photo": "https://static.openfoodfacts.org/images/products/761/303/363/6905/front_fr.5.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:1:low, fat_100g:1.9:low, salt_100g:1.9304:high, sugars_100g:0.4:low "
+        },
+        {
+            "id": 64,
+            "name": "Pizza surgel\u00e9e Jambon Speck Roquette Mozzarella",
+            "desc": "Farine de _bl\u00e9_, pulpe de tomate 15,8 %, mozzarella (_lait_) 15,3 %, jambon cru fum\u00e9 speck 14,1 % (viande de porc, sel, \u00e9pices et aromates, antioxydant: ascorbate de sodium, conservateur: nitrite de sodium), eau, roquette 3,5 %, tomate cerise confite 3,5% (tomate cerise, sirop de glucose de bl\u00e9, sel), concentr\u00e9 de tomate 1,7 %, huile d'olive 1,6 %, levure, sel, oignon, ail, basilic 0,04 %, poivre.",
+            "categories": [
+                "Surgel\u00e9s",
+                "Plats pr\u00e9par\u00e9s",
+                "Produits \u00e0 la viande",
+                "Plats pr\u00e9par\u00e9s \u00e0 la viande",
+                "Pizzas tartes sal\u00e9es et quiches",
+                "Plats pr\u00e9par\u00e9s surgel\u00e9s",
+                "Pizzas",
+                "Plats au porc",
+                "Pizzas surgel\u00e9es",
+                "Pizzas et tartes surgel\u00e9es",
+                "Pizzas au jambon"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3270160717323/pizza-surgelee-jambon-speck-roquette-mozzarella-picard",
+            "photo": "https://static.openfoodfacts.org/images/products/327/016/071/7323/front_fr.27.400.jpg",
+            "nutriscore": "b",
+            "nutrient_100g": "saturated_fat_100g:3.5:moderate, fat_100g:7.2:moderate, salt_100g:1:moderate, sugars_100g:2.4:low "
+        },
+        {
+            "id": 65,
+            "name": "Jambon de Paris, D\u00e9couenn\u00e9 D\u00e9graiss\u00e9 (4 Tranches)",
+            "desc": "Jambon frais de porc 87 %, eau, sirop de glucose, sel, ar\u00f4mes, antioxydant : \u00e9rythorbate de sodium, conservateur : nitrite de sodium.",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Charcuteries cuites",
+                "Jambons blancs"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3263859445119/jambon-de-paris-decouenne-degraisse-4-tranches-leader-price",
+            "photo": "https://static.openfoodfacts.org/images/products/326/385/944/5119/front_fr.26.400.jpg",
+            "nutriscore": "b",
+            "nutrient_100g": "saturated_fat_100g:0.9:low, fat_100g:2.4:low, salt_100g:1.4:moderate, sugars_100g:0.5:low "
+        },
+        {
+            "id": 66,
+            "name": "Tendre Noix, \u00e0 la Broche (4 Tranches)",
+            "desc": "Jambon frais de porc, bouillon (eau, couennes de porc, oignons, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier), sel, dextrose, ar\u00f4mes naturels, antioxydant : isoascorbate de sodium, conservateur : nitrite de sodium.",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Frais",
+                "Jambons",
+                "Porc",
+                "Charcuteries cuites",
+                "Jambons blancs"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3154230072942/tendre-noix-a-la-broche-4-tranches-herta",
+            "photo": "https://static.openfoodfacts.org/images/products/315/423/007/2942/front_fr.6.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:1.2:low, fat_100g:3:moderate, salt_100g:2.032:high, sugars_100g:0.5:low "
+        },
+        {
+            "id": 67,
+            "name": "Dolce Pizza Regina",
+            "desc": "Garniture 60 % : _mozzarella_ en copeaux 28 %, sauce tomate 27 % (pur\u00e9e de tomate, eau, farine de _bl\u00e9_, sel), chiffonnade de jambon cuit 22 % (jambon de porc, eau, sel, dextrose, sirop de glucose, stabilisant : E451, ar\u00f4mes naturels (dont _gluten_), g\u00e9lifiant : E407, lactose, bouillon de porc, conservateurs : E316, E250, ferments), champignons de Paris 16 % (champignons, extrait naturel de champignon concentr\u00e9), olives noires avec noyau (stabilisant : E579), roquette 0,7 %, basilic, origan.\r\n\r\nP\u00e2te 40 % : farine de _bl\u00e9_, eau, levure boulang\u00e8re, sel, farine de bl\u00e9 malt\u00e9.",
+            "categories": [
+                "Plats pr\u00e9par\u00e9s",
+                "Produits \u00e0 la viande",
+                "Plats pr\u00e9par\u00e9s \u00e0 la viande",
+                "Pizzas tartes sal\u00e9es et quiches",
+                "R\u00e9frig\u00e9r\u00e9s",
+                "Pizzas",
+                "Plats au porc",
+                "Plats pr\u00e9par\u00e9s r\u00e9frig\u00e9r\u00e9s",
+                "Pizzas au jambon"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3242272340850/dolce-pizza-regina-sodebo",
+            "photo": "https://static.openfoodfacts.org/images/products/324/227/234/0850/front_fr.7.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:2.9:moderate, fat_100g:4.6:moderate, salt_100g:1.4605:moderate, sugars_100g:2.1:low "
+        },
+        {
+            "id": 68,
+            "name": "Steaks de soja \u00e0 l'indienne",
+            "desc": "Farine prot\u00e9ique de soja* r\u00e9hydrat\u00e9e 66.6%, tomates 17% [concentr\u00e9 de tomates, tomates concass\u00e9es (tomates, jus de tomates)], oignons 6%, huile de tournesol, carottes 3%, fibres de soja*, curry 1.6% (moutarde), sucre, sel,  g\u00e9lifiant : m\u00e9thylcellulose, jus concentr\u00e9 de citron.\r\n*issues de graines de soja  cultiv\u00e9es en France, sans OGM.",
+            "categories": [
+                "Aliments et boissons \u00e0 base de v\u00e9g\u00e9taux",
+                "Aliments d'origine v\u00e9g\u00e9tale",
+                "Substituts de viande",
+                "Steaks v\u00e9g\u00e9taux",
+                "Steaks de soja"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3273220086056/steaks-de-soja-a-l-indienne-sojasun",
+            "photo": "https://static.openfoodfacts.org/images/products/327/322/008/6056/front_fr.40.400.jpg",
+            "nutriscore": "a",
+            "nutrient_100g": "saturated_fat_100g:0.85:low, fat_100g:9:moderate, salt_100g:1.1:moderate, sugars_100g:4.5:low "
+        },
+        {
+            "id": 69,
+            "name": "Le P\u00e2t\u00e9 H\u00e9naff",
+            "desc": "Viande de porc (91 %) dont jambon (20 %), fumet, foie de porc (1,5 %), sel de Gu\u00e9rande (1,5 %), \u00e9pices.",
+            "categories": [
+                "Viandes",
+                "Produits \u00e0 tartiner",
+                "Conserves",
+                "Charcuteries",
+                "Produits \u00e0 tartiner sal\u00e9s",
+                "Porc",
+                "Charcuteries diverses",
+                "P\u00e2t\u00e9s de porc"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3021210013007/le-pate-henaff",
+            "photo": "https://static.openfoodfacts.org/images/products/302/121/001/3007/front_fr.34.400.jpg",
             "nutriscore": "d",
-            "nutrient_100g": "saturated_fat_100g:2.6:moderate, fat_100g:15:moderate, salt_100g:0.7:moderate, sugars_100g:29:high "
+            "nutrient_100g": "saturated_fat_100g:9:high, fat_100g:23:high, salt_100g:1.5:moderate, sugars_100g:0.2:low "
         },
         {
-            "name": "Snickers",
-            "desc": "Sucre, sirop de glucose, _cacahu\u00e8tes_, _lait_ \u00e9cr\u00e9m\u00e9 en poudre, beurre de cacao, p\u00e2te de cacao, _lactose_, huile de tournesol, beurre concentr\u00e9 (_lait_), petit-_lait_ en poudre, mati\u00e8re grasse de palme, sel, \u00e9mulsifiant (l\u00e9cithine de _soja_), blanc d\u2019_\u0153uf_ en poudre, huile de noix de coco, prot\u00e9ine de _lait_ hydrolys\u00e9e, extrait naturel de vanille.",
+            "id": 70,
+            "name": "Galettes millet et boulghour aux champignons",
+            "desc": "Boulghour de _bl\u00e9_* dur pr\u00e9cuit 47,7%, champignons* 15,7% (champignons de Paris* et champignons de Paris* d\u00e9shydrat\u00e9s), millet pr\u00e9cuit* 13,2%, oignons*, huile de tournesol ol\u00e9ique*, flocons de _bl\u00e9_* complet, flocons d\u2018_avoine_* compl\u00e8te, farine de riz*, sel marin, persil*, _gluten de bl\u00e9_*, ail*, amidon de ma\u00efs*. *|ngr\u00e9dients issus de l'agriculture biologique.",
             "categories": [
-                "Snacks",
-                "Snacks sucr\u00e9s",
-                "Confiseries",
-                "Confiseries chocolat\u00e9es",
-                "Barres",
-                "Barres chocolat\u00e9es",
-                "Barres chocolat\u00e9es aux fruits ol\u00e9agineux"
+                "Aliments et boissons \u00e0 base de v\u00e9g\u00e9taux",
+                "Aliments d'origine v\u00e9g\u00e9tale",
+                "Plats pr\u00e9par\u00e9s",
+                "Substituts de viande",
+                "Steaks v\u00e9g\u00e9taux",
+                "C\u00e9r\u00e9ales pr\u00e9par\u00e9es"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/5000159461122/snickers",
-            "image_url": "https://static.openfoodfacts.org/images/products/500/015/946/1122/front_fr.82.400.jpg",
-            "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:8.3:high, fat_100g:22.8:high, salt_100g:0.63:moderate, sugars_100g:51.5:high "
+            "API_link": "https://fr.openfoodfacts.org/produit/3259011799909/galettes-millet-et-boulghour-aux-champignons-cereal-bio",
+            "photo": "https://static.openfoodfacts.org/images/products/325/901/179/9909/front_fr.38.400.jpg",
+            "nutriscore": "b",
+            "nutrient_100g": "saturated_fat_100g:1.2:low, fat_100g:11:moderate, salt_100g:1.1:moderate, sugars_100g:2:low "
         },
         {
-            "name": "Biscuits p'tit dej au p\u00e9pites de chocolat, abricots et amandes",
-            "desc": "C\u00e9r\u00e9ales 51 % (farine de _bl\u00e9_ 38 %, flocons d'_avoine_ 5 %, son de _bl\u00e9_ 3,8 %, farine de _seigle_ 3,6 %, farine de sarrasin, farine d'_orge_), sucre, graisse et huiles v\u00e9g\u00e9tales (palme, tournesol), p\u00e9pites de chocolat 8 % [sucre, p\u00e2te de cacao, beurre de cacao, \u00e9mulsifiant : l\u00e9cithines (_soja_), ar\u00f4me], poudre de _lait_ \u00e9cr\u00e9m\u00e9, miel, p\u00e9pites d'abricots 2,5 % (abricots 97 %, farine de riz, conservateur : _anhydride sulfureux_), _amandes_ hach\u00e9es 2 %, poudre \u00e0 lever : carbonates de sodium, carbonates d'ammonium, diphosphates, ar\u00f4mes, sel, \u00e9mulsifiant : l\u00e9cithines (colza), _lactos\u00e9rum_ en poudre.",
+            "id": 71,
+            "name": "Le sp\u00e9cial \u00e0 l'oignon",
+            "desc": "Viande hach\u00e9e de b\u0153uf (51%), prot\u00e9ines v\u00e9g\u00e9tales de soja r\u00e9hydrat\u00e9es (26%), oignons frits et en poudre r\u00e9hydrat\u00e9s 12% (dont huile de tournesol), eau, chapelure , (farine de bl\u00e9, sel, poudre \u00e0 lever : E503ii), sel, ar\u00f4me, poudre de betterave rouge.",
             "categories": [
-                "Snacks",
-                "Petit-d\u00e9jeuners",
-                "Snacks sucr\u00e9s",
-                "Biscuits et g\u00e2teaux",
-                "Biscuits",
-                "Biscuits au chocolat",
-                "Biscuits aux c\u00e9r\u00e9ales",
-                "Biscuits petits-d\u00e9jeuners"
+                "Viandes",
+                "Surgel\u00e9s",
+                "B\u0153uf",
+                "Viandes surgel\u00e9es",
+                "Pr\u00e9parations de viande",
+                "Pr\u00e9parations de viande bovine",
+                "Pr\u00e9parations de viande surgel\u00e9es",
+                "Pr\u00e9parations de viande hach\u00e9e",
+                "Pr\u00e9parations de viande bovine hach\u00e9e surgel\u00e9es",
+                "Pr\u00e9parations de viande hach\u00e9es surgel\u00e9es",
+                "Pr\u00e9parations de viande bovine hach\u00e9e"
             ],
-            "API_url": "https://fr.openfoodfacts.org/produit/3245411443566/biscuits-p-tit-dej-au-pepites-de-chocolat-abricots-et-amandes-carrefour",
-            "image_url": "https://static.openfoodfacts.org/images/products/324/541/144/3566/front_fr.24.400.jpg",
+            "API_link": "https://fr.openfoodfacts.org/produit/3181231001732/le-special-a-l-oignon-charal",
+            "photo": "https://static.openfoodfacts.org/images/products/318/123/100/1732/front_fr.11.400.jpg",
+            "nutriscore": "c",
+            "nutrient_100g": "saturated_fat_100g:5.7:high, fat_100g:12.7:moderate, salt_100g:0.9:moderate, sugars_100g:0.4:low "
+        },
+        {
+            "id": 52,
+            "name": "Jambon cru italien",
+            "desc": "Jambon de porc*, sel (* Ingr\u00e9dient issu de l'agriculture biologique). Pr\u00e9par\u00e9 avec 130 g de viande pour 100 g de produit fini",
+            "categories": [
+                "Viandes",
+                "Charcuteries",
+                "Jambons",
+                "Jambons crus"
+            ],
+            "API_link": "https://fr.openfoodfacts.org/produit/3560070551187/jambon-cru-italien-carrefour-bio",
+            "photo": "https://static.openfoodfacts.org/images/products/356/007/055/1187/front_fr.6.400.jpg",
             "nutriscore": "e",
-            "nutrient_100g": "saturated_fat_100g:9:high, fat_100g:20:moderate, salt_100g:0.78:moderate, sugars_100g:27:high "
+            "nutrient_100g": "saturated_fat_100g:8.5:high, fat_100g:18:moderate, salt_100g:4.2:high, sugars_100g:0.5:low "
         }
     ]
 }

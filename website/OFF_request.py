@@ -11,10 +11,11 @@ class OFFRequest:
         self.url_product = 'https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}' \
                    '&search_simple=1&action=process&nutrition_grades=e' \
                    '&sort_by=unique_scans_n&page=1&json=1'
-        self.url_substitute = "https://fr.openfoodfacts.org/cgi/search.pl?action=process&" \
-                              "tagtype_0=countries&tag_contains_0=contains&tag_0=france" \
-                              "&tagtype_1=nutrition_grades&tag_contains_1=does_not_contain&tag_1=E%2C%20D" \
-                              "&sort_by=unique_scans_n&page=1&search_terms={}&json=1"
+        self.url_substitute = "https://fr.openfoodfacts.org/cgi/search.pl?action=process" \
+                              "&search_terms={}&tagtype_0=countries&tag_contains_0=contains" \
+                              "&tag_0=france&tagtype_1=nutrition_grades" \
+                              "&tag_contains_1=does_not_contain&tag_1=E%" \
+                              "&sort_by=unique_scans_n&page=1&json=1"
 
     def API_request(self, search_term, search_type):
         """request OFF with product term for categories search type
@@ -45,26 +46,40 @@ class OFFRequest:
         """parse OFF json response in a dictionary of searched product and substitutes
         for Product model database insertion"""
         products = []
-        i = 0
+        pk = Product.objects.last()
+        if pk:
+            i = pk.id
+        else:
+            i = 0
         for product in response:
             # crawling product for name, desc, API_url, image_url, nutriscore, nutient_100g
+            if 'ingredients_text_fr' not in product:
+                desc = ""
+            else:
+                desc = product['ingredients_text_fr']
             nutrigrade = "".join(product["nutrition_grades_tags"])
-            if nutrigrade in ("a", "b", "c", "d", "e"):
+            if nutrigrade in ("a", "b", "c", "d", "e") \
+                    and 'fat_100g' in product['nutriments'] \
+                    and 'image_url' in product \
+                    and 'product_name_fr' in product:
                 i += 1
                 product[i] = {
+                    "id": i,
                     "name": product['product_name_fr'],
-                    "desc": product['ingredients_text_fr'],
+                    "desc": desc,
                     "categories": product["categories"].split(", "),
-                    "API_url": product['url'],
-                    "image_url": product['image_url'],
+                    "API_link": product['url'],
+                    "photo": product['image_url'],
                     "nutriscore": nutrigrade,
-                    "nutrient_100g": "saturated_fat_100g:{}:{}, ".format(
+                    "nutrient_100g":
+                        "saturated_fat_100g:{}:{}, ".format(
                         product['nutriments']['saturated-fat_100g'],
-                        product['nutrient_levels']['saturated-fat']) + "fat_100g:{}:{}, ".format(
-                        product['nutriments']['fat_100g'],
-                        product['nutrient_levels']['fat']) + "salt_100g:{}:{}, ".format(
-                        product['nutriments']['salt_100g'],
-                        product['nutrient_levels']['salt']) + "sugars_100g:{}:{} ".format(
+                        product['nutrient_levels']['saturated-fat']) +
+                        "fat_100g:{}:{}, ".format(
+                        product['nutriments']['fat_100g'], product['nutrient_levels']['fat']) +
+                        "salt_100g:{}:{}, ".format(
+                        product['nutriments']['salt_100g'], product['nutrient_levels']['salt']) +
+                        "sugars_100g:{}:{} ".format(
                         product['nutriments']['sugars_100g'], product['nutrient_levels']['sugars'])
                 }
                 products.append(product[i])
@@ -92,13 +107,15 @@ class OFFRequest:
                 else:
                     product[i] = Product.objects.get_or_create(name=product["name"],
                                                                desc=product["desc"],
-                                                               photo=product["image_url"],
-                                                               API_link=product["API_url"],
+                                                               photo=product["photo"],
+                                                               API_link=product["API_link"],
                                                                nutriscore=product["nutriscore"],
                                                                nutrient_100g=product["nutrient_100g"],
                                                                )
 
                     Product.objects.get(name=product["name"]).categories.add(category.id)
+        else:
+            return None
 
     def run(self, search_term):
         """run parser and crawl OFF data to construct a dump of searched product,
@@ -116,3 +133,4 @@ class OFFRequest:
         }
         self.dump_data(data)
         self.insert_data(data)
+        return substitutes

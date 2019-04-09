@@ -1,7 +1,7 @@
 {% extends 'website/base.html' %}
 {% block content %}
 
-    <!-- header -->
+  <!-- header -->
   <header class="alt-header">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
@@ -15,11 +15,16 @@
 
     <!-- card-deck -->
     <div class="container mb-5 mt-5">
+    {% if not products %}
+        <div class="text-center">
+          Oups ! Nous n'avons trouvé aucun résultat à cette requête. Essayez de nouveau !
+        </div>
+    {% else %}
         <div class="card-columns">
           {% for product in products %}
             <div class="card text-center">
                 <div class="img-wrapper p-2">
-                    <a href="/search/{{ product.id }}"><img src="{{ product.photo }}" class="card-img-top" alt="{{ product.name }}"></a>
+                    <a href="{% url 'website:detail' product_id=product.id %}"><img src="{{ product.photo }}" class="card-img-top" alt="{{ product.name }}"></a>
                 </div>
                 <div class="card-body">
                   <h6 class="card-title"><a href="/search/{{ product.id }}">{{ product.name }}</a></h6>
@@ -28,7 +33,7 @@
                 </div>
             </div>
         {% endfor %}
-
         </div>
+        {% endif %}
     </div>
 {% endblock %}
