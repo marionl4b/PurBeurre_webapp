@@ -23,8 +23,8 @@ class Controler:
         # select the first category of the matching product
         search_cat = Category.objects.filter(product_category=search_prod.id)[:1]
         # return substitutes products in the same category with lower nutriscore
-        products = Product.objects.filter(categories=search_cat, nutriscore__lt=search_nutriscore)
-        return products
+        substitutes = Product.objects.filter(categories=search_cat, nutriscore__lt=search_nutriscore)
+        return search_prod, substitutes
 
     def show_product_detail(self):
         pass

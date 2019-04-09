@@ -19,8 +19,8 @@ def result(request):
         THEN: look in database for substitute
         in the same category of product and a lower nutriscore"""
     query = request.GET.get('q')  # retrieve user search query
-    products = Ctrl.check_in_database(Ctrl(), query)
-    context = {'products': products}
+    search_prod, substitutes = Ctrl.check_in_database(Ctrl(), query)
+    context = {'search_prod': search_prod, 'products': substitutes}
     return render(request, 'website/list_product.html', context)
 
 
