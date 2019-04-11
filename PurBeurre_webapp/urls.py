@@ -31,4 +31,5 @@ urlpatterns = [
          auth_views.LogoutView.as_view(template_name="website/logout.html"),
          name="logout"),
     path('search/', include('website.urls', namespace='website')),
+    path('account/my-products/', views.favorites, name="favorites"),
 ]

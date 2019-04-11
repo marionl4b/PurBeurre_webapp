@@ -20,8 +20,5 @@ class Controler:
             results = (search_prod, substitutes)
             return results
 
-    def show_product_detail(self):
-        pass
-
-    def nutrient_parser(self):
+    def get_favorites(self):
         pass

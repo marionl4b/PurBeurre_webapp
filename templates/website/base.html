@@ -61,7 +61,7 @@
                     <a class="nav-link js-scroll-trigger" href="{% url 'login' %}"><i class="far fa-user"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-carrot"></i></a>
+                    <a class="nav-link js-scroll-trigger" href="{% url 'favorites' %}"><i class="fas fa-carrot"></i></a>
                 </li>
                 {% endif %}
             </ul>
@@ -99,6 +99,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="{% static 'website/js/creative.js' %}"></script>
+  {% block javascript %}{% endblock %}
 
 </body>
 
