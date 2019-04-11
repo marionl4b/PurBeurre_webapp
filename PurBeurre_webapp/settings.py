@@ -139,7 +139,8 @@ STATIC_URL = '/static/'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
-# DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+if os.environ.get('ENV') == 'PRODUCTION':
+    DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
 # Activate Pytest for ./manage.py test
 TEST_RUNNER = 'pytest_runner.PytestTestRunner'
