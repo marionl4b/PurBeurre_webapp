@@ -1,4 +1,5 @@
-from django.contrib import messages
+from django.contrib import messages, auth
+from django.http import HttpResponse, HttpResponseNotAllowed
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegistrationForm
@@ -59,6 +60,20 @@ def detail(request, product_id):
             }
             context = {'product': product, 'nutrients': nutrients}
     return render(request, 'website/detail_product.html', context)
+
+
+@login_required
+def favorites(request):
+    """ GIVEN: user loged
+        WHEN: favorite submit
+        THEN: add an association user/product in database
+        and return user favorites product list"""
+    user = auth.get_user(request)
+    if request.method == 'POST':
+        product_id = request.POST.get('fav')
+        Product.objects.get(id=product_id).favorites.add(user.id)
+    context = {"products": Product.objects.filter(favorites=user.id)}
+    return render(request, 'website/list_product.html', context)
 
 
 def register(request):
