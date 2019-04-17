@@ -39,12 +39,12 @@ def detail(request, product_id):
         THEN: show product details and construct a dictionary for nutrients """
     product = get_object_or_404(Product, pk=product_id)
     context = {'product': product}
-    if product.nutrient_100g != "":
+    if product.nutrient_100g is not None:
         nutrient_100g = sorted(product.nutrient_100g.split(","))
         nutrient_list = []
         if len(nutrient_100g) > 0:
             i = -1
-            for n in nutrient_100g:
+            for item in nutrient_100g:
                 i += 1
                 n = nutrient_100g[i].split(":")
                 nutrient_list.append(n)
@@ -69,11 +69,14 @@ def favorites(request):
         THEN: add an association user/product in database
         and return user favorites product list"""
     user = auth.get_user(request)
-    if request.method == 'POST':
-        product_id = request.POST.get('fav')
-        Product.objects.get(id=product_id).favorites.add(user.id)
-    context = {"products": Product.objects.filter(favorites=user.id)}
-    return render(request, 'website/list_product.html', context)
+    if user:
+        if request.method == 'POST':
+            product_id = request.POST.get('fav')
+            Product.objects.get(id=product_id).favorites.add(user.id)
+        context = {"products": Product.objects.filter(favorites=user.id)}
+        return render(request, 'website/list_product.html', context)
+    else:
+        return redirect('login')
 
 
 def register(request):
