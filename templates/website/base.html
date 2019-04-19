@@ -42,7 +42,7 @@
         </button>
         <li class="collapse navbar-collapse" id="navbarResponsive">
             <form class="ml-auto form-inline" method="get" action="{% url 'website:result' %}" accept-charset="utf-8">
-                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Chercher" aria-label="Search"
+                <input id="first-search" class="form-control form-control-sm mr-sm-2" type="search" placeholder="Chercher" aria-label="Search"
                 name="q" value="{{request.GET.q}}">
             </form>
             <ul class="navbar-nav my-2 my-lg-0">
