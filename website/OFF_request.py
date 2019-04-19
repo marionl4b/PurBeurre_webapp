@@ -33,27 +33,23 @@ class OFFRequest:
         response = r.json()
         return response["products"]
 
-    def cat_parser(self, response):
-        """parse OFF json response in a dictionary for Categories model database insertion
-        and substitute request"""
-        categories = []
-        for product in response:
-            # crawling categories of each product
-            prod_cat = product["categories"].split(", ")
-            for cat in prod_cat:
-                if cat not in categories:
-                    categories.append(cat)
-        return categories
+    # def cat_parser(self, response):
+    #     """parse OFF json response in a dictionary for Categories model database insertion
+    #     and substitute request"""
+    #     categories = []
+    #     for product in response:
+    #         # crawling categories of each product
+    #         prod_cat = product["categories"].split(", ")
+    #         for cat in prod_cat:
+    #             if cat not in categories:
+    #                 categories.append(cat)
+    #     return categories
 
     def prod_parser(self, response):
         """parse OFF json response in a dictionary of searched product and substitutes
         for Product model database insertion"""
         products = []
-        pk = Product.objects.last()
-        if pk:
-            i = pk.id
-        else:
-            i = 0
+        i = 0
         for product in response:
             # crawling product for name, desc, API_url, image_url, nutriscore, nutient_100g
             if 'ingredients_text_fr' not in product:
@@ -67,7 +63,6 @@ class OFFRequest:
                     and 'product_name_fr' in product:
                 i += 1
                 product[i] = {
-                    "id": i,
                     "name": product['product_name_fr'],
                     "desc": desc,
                     "categories": product["categories"].split(", "),
