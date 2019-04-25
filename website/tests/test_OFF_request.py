@@ -1,7 +1,6 @@
 import pytest
 
 from website import OFF_request
-from .test_models import Product, Category
 
 
 @pytest.mark.django_db
@@ -45,13 +44,13 @@ class TestOffRequest:
         self.parser_results = [{
             "name": "Coca Cola Light",
             "desc": "",
-            "categories": ["Boissons", "Boissons édulcorées", "Boissons gazeuses", "Boissons light",
-                           "Sodas", "Sodas light", "Sodas au cola", "Sodas au cola light"],
+            "categories": ["Boissons", " Boissons édulcorées", " Boissons gazeuses", " Boissons light",
+                           " Sodas", " Sodas light", " Sodas au cola", " Sodas au cola light"],
             "API_link": "https://fr.openfoodfacts.org/produit/5449000053565/coca-cola-light",
             "photo": "https://static.openfoodfacts.org/images/products/544/900/005/0205/front_fr.59.400.jpg",
             "nutriscore": "b",
             "nutrient_100g": "saturated_fat_100g:0:low, fat_100g:0:low, salt_100g:0.07:low, sugars_100g:0:low "
-        },]
+        }, ]
 
     def test_parser_success(self, setup):
         result = OFF_request.OFFRequest.prod_parser(OFF_request.OFFRequest(), self.offreq_dump_ok)

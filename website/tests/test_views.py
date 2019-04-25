@@ -113,13 +113,6 @@ class TestViews:
         assert resp.status_code == 200
         assert soup.select('p.error')
 
-    # def test_authenticated_user_favorites_access(self, setup, rf, client):
-    #     url = urls.reverse('favorites')
-    #     request = rf.get(url)
-    #     request.user = self.user
-    #     response = views.favorites(request)
-    #     assert response.status_code == 200
-
     def test_anonymous_user_favorites_access(self, setup, rf, client):
         """favorites not visible when user not loged and redirect to login """
         url = urls.reverse('favorites')
@@ -128,6 +121,15 @@ class TestViews:
         resp = views.favorites(request)
         assert resp.status_code == 302
         assert resp.url == '/account/login/?next=/account/my-products/'
+
+    def test_authenticated_user_favorites_access(self, setup, rf, client):
+        client.post(urls.reverse('login'), {
+            'username': "username",
+            'password': "password123"
+        })
+        url = urls.reverse('favorites')
+        response = client.get(url)
+        assert response.status_code == 200
 
     def test_login(self, client, setup):
         """test session and redirection when user log in"""

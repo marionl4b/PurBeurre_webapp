@@ -9,16 +9,13 @@ class OFFRequest:
 
     def __init__(self):
         self.url_product = 'https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}' \
-                   '&search_simple=1&action=process&nutrition_grades=e' \
+                   '&search_simple=1&action=process' \
                    '&sort_by=unique_scans_n&page=1&json=1'
         self.url_substitute = "https://fr.openfoodfacts.org/cgi/search.pl?action=process" \
                               "&search_terms={}&tagtype_0=countries&tag_contains_0=contains" \
                               "&tag_0=france&tagtype_1=nutrition_grades" \
                               "&tag_contains_1=does_not_contain&tag_1=E%" \
                               "&sort_by=unique_scans_n&page=1&json=1"
-
-        self.search_prod = []
-        self.substitutes = []
 
     def API_request(self, search_term, search_type):
         """request OFF with product term for categories search type
@@ -65,7 +62,7 @@ class OFFRequest:
                 product[i] = {
                     "name": product['product_name_fr'],
                     "desc": desc,
-                    "categories": product["categories"].split(", "),
+                    "categories": product["categories"].split(","),
                     "API_link": product['url'],
                     "photo": product['image_url'],
                     "nutriscore": nutrigrade,
