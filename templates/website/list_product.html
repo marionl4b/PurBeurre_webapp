@@ -6,7 +6,13 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Résultats pour {{ search_prod.name }}</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">
+            {% if not favorites %}
+                Résultats pour {{ search_prod.name }}
+             {% else %}
+                Mes produits favoris
+             {% endif %}
+          </h1>
           <hr class="divider my-4">
         </div>
       </div>
@@ -32,11 +38,14 @@
                   <h6 class="card-title"><a href="/search/{{ product.id }}">{{ product.name }}</a></h6>
                     <div class="nutriscore nutriscore-{{ product.nutriscore }} rounded-circle">{{ product.nutriscore }}</div>
                     <p class="card-text">
+                    {% if not favorites %}
                     <form class="save_fav" action="{% url 'favorites' %}" method="POST">
                         {% csrf_token %}
                         <input type="text" hidden name=fav value="{{ product.id }}">
                        <button class="btn favorite btn-primary" type="submit"><i class="far fa-save"></i> Enregistrer</button>
-                    </form></p>
+                    </form>
+                    {% endif %}
+                    </p>
                 </div>
             </div>
         {% endfor %}

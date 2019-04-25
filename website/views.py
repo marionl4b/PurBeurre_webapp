@@ -73,7 +73,8 @@ def favorites(request):
         if request.method == 'POST':
             product_id = request.POST.get('fav')
             Product.objects.get(id=product_id).favorites.add(user.id)
-        context = {"products": Product.objects.filter(favorites=user.id)}
+        context = {"products": Product.objects.filter(favorites=user.id),
+                   "favorites": user.favorite.all()}
         return render(request, 'website/list_product.html', context)
     else:
         return redirect('login')
