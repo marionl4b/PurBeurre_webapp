@@ -4,6 +4,15 @@
 #logo{
     width: 2em;
 }
+.carrot-icon img{
+    width : 1.2em;
+    opacity: 0.7;
+}
+
+.carrot-icon img#carrot-black{
+    opacity: 1;
+}
+
 
 /******** homepage ********/
 /*about section*/

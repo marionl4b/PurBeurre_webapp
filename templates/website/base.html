@@ -54,7 +54,11 @@
                     <a class="nav-link js-scroll-trigger" href="{% url 'profile' %}"><i class="fas fa-user"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{% url 'favorites' %}"><i class="fas fa-carrot"></i></a>
+                    <a class="nav-link js-scroll-trigger" href="{% url 'favorites' %}">
+                        <i class="fas carrot-icon">
+                            <img id="carrot-white" class="img-fluid" src="{% static 'website/img/carrot-icon-white.png' %}" alt="carrot icon"/>
+                            <img id="carrot-black" class="img-fluid" src="{% static 'website/img/carrot-icon-black.png' %}" alt="carrot icon"/>
+                    </i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i></a>
@@ -64,7 +68,12 @@
                     <a class="nav-link js-scroll-trigger" href="{% url 'login' %}"><i class="far fa-user"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{% url 'favorites' %}"><i class="fas fa-carrot"></i></a>
+                    <a class="nav-link js-scroll-trigger" href="{% url 'favorites' %}">
+                        <i class="fas carrot-icon">
+                            <img id="carrot-white" src="{% static 'website/img/carrot-icon-white.png' %}" alt="carrot icon"/>
+                            <img id="carrot-black" src="{% static 'website/img/carrot-icon-black.png' %}" alt="carrot icon"/>
+                        </i>
+                    </a>
                 </li>
                 {% endif %}
             </ul>
@@ -80,10 +89,10 @@
     <div class="container">
         <div class="row">
             <div class="col small text-center">
-                <a class="text-muted" href="{%url 'legal'%}">Mentions Légales</a>
+                <a class="text-muted" href="{% url 'legal'%}">Mentions Légales</a>
             </div>
             <div class="col small text-center">
-                 <a class="text-muted" href="{%url 'home'%}#contact">Contact</a>
+                 <a class="text-muted" href="{% url 'home'%}#contact">Contact</a>
             </div>
         </div>
     </div>
