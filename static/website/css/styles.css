@@ -29,6 +29,7 @@
 /*cards*/
 .card-columns .card {
     margin-bottom: 2.25rem;
+    margin-top: 1em;
 }
 .img-wrapper{
     max-height: 250px;
