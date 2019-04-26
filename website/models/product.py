@@ -22,5 +22,5 @@ class Product(models.Model):
 
     class Meta:
         app_label = 'website'
-        verbose_name = "Produit"
-        verbose_name_plural = "Produits"
+        verbose_name = "Product"
+        verbose_name_plural = "Products"
