@@ -1,23 +1,33 @@
 import requests
-import json
+from PurBeurre_webapp.settings import URL_PRODUCT, URL_SUBSTITUTE
 from .models.product import Product
 from .models.category import Category
 
 
-class OFFRequest:
-    """Retreive data from Open Food Fact API (OFF) and parse them for database insertion"""
+class Substitutes:
+    """ Select Substitutes for user search in database fisrt and then
+        Retreive data from Open Food Fact API (OFF) and parse them for database insertion"""
 
     def __init__(self):
-        self.url_product = 'https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}' \
-                   '&search_simple=1&action=process' \
-                   '&sort_by=unique_scans_n&page=1&json=1'
-        self.url_substitute = "https://fr.openfoodfacts.org/cgi/search.pl?action=process" \
-                              "&search_terms={}&tagtype_0=countries&tag_contains_0=contains" \
-                              "&tag_0=france&tagtype_1=nutrition_grades" \
-                              "&tag_contains_1=does_not_contain&tag_1=E%" \
-                              "&sort_by=unique_scans_n&page=1&json=1"
+        self.url_product = URL_PRODUCT
+        self.url_substitute = URL_SUBSTITUTE
 
-    def API_request(self, search_term, search_type):
+    def select_substitutes(self, query):
+        """ Select substitutes matching result in database"""
+        if Product.objects.filter(name__icontains=query):
+            selection = Product.objects.filter(name__icontains=query).first()
+            search_prod = Product.objects.get(name=selection)
+            # store the nutriscore of the searched product
+            search_nutriscore = search_prod.nutriscore
+            # select the first category of the matching product
+            search_cat = Category.objects.filter(product_category=search_prod.id)[:1]
+            # return substitutes products in the same category with lower nutriscore
+            substitutes = Product.objects.filter(categories=search_cat,
+                                                 nutriscore__lt=search_nutriscore)
+            results = (search_prod, substitutes)
+            return results
+
+    def api_request(self, search_term, search_type):
         """request OFF with product term for categories search type
         and request OFF with category term restric by nutriscore non containing 'e'
         for product search type"""
@@ -29,18 +39,6 @@ class OFFRequest:
         r = requests.get(url)
         response = r.json()
         return response["products"]
-
-    # def cat_parser(self, response):
-    #     """parse OFF json response in a dictionary for Categories model database insertion
-    #     and substitute request"""
-    #     categories = []
-    #     for product in response:
-    #         # crawling categories of each product
-    #         prod_cat = product["categories"].split(", ")
-    #         for cat in prod_cat:
-    #             if cat not in categories:
-    #                 categories.append(cat)
-    #     return categories
 
     def prod_parser(self, response):
         """parse OFF json response in a dictionary of searched product and substitutes
@@ -82,11 +80,6 @@ class OFFRequest:
                 pass
         return products
 
-    def dump_data(self, data):
-        """json dump of data"""
-        with open('website/OFF_data.json', 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=4)
-
     def insert_data(self, data):
         """insert data of OFF_data.json in database for Category and Product"""
         category_name = data["substitutes"][0]["categories"][0]
@@ -115,12 +108,11 @@ class OFFRequest:
     def run(self, search_term):
         """run parser and crawl OFF data to construct a dump of searched product,
         categories and substitutes products. Then serialize and insert this data to database """
-        response = self.API_request(search_term, "product")
+        response = self.api_request(search_term, "product")
         products = self.prod_parser(response)
-        response = self.API_request(products[0]["categories"][0], "substitute")
+        response = self.api_request(products[0]["categories"][0], "substitute")
         substitutes = self.prod_parser(response)
         search_prod = products[0]
         substitutes.append(search_prod)
         data = {"substitutes": substitutes}
         self.insert_data(data)
-

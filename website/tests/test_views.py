@@ -97,7 +97,7 @@ class TestViews:
         assert resp.status_code == 200
         assert soup.select('div.card')
 
-    def test_OFF_results(self, setup, rf):
+    def test_substitutes_results(self, setup, rf):
         """if query search not in database ask OFF API"""
         request = rf.get('/search/result/?q=coca')
         resp = views.result(request)

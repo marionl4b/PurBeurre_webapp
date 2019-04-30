@@ -151,3 +151,13 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # authentication
 LOGIN_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'
+
+# Open Food Fact API url request
+URL_PRODUCT = 'https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}' \
+                   '&search_simple=1&action=process' \
+                   '&sort_by=unique_scans_n&page=1&json=1'
+URL_SUBSTITUTE = "https://fr.openfoodfacts.org/cgi/search.pl?action=process" \
+                              "&search_terms={}&tagtype_0=countries&tag_contains_0=contains" \
+                              "&tag_0=france&tagtype_1=nutrition_grades" \
+                              "&tag_contains_1=does_not_contain&tag_1=E%" \
+                              "&sort_by=unique_scans_n&page=1&json=1"

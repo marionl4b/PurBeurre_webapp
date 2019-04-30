@@ -1,16 +1,17 @@
 import pytest
 
-from website import OFF_request
+from website import get_substitutes
 
 
 @pytest.mark.django_db
-class TestOffRequest:
+class TestSubstitutes:
     @pytest.fixture
     def setup(self, client):
         self.offreq_dump_ok = [{
                 "product_name_fr": "Coca Cola Light",
                 "image_url": "https://static.openfoodfacts.org/images/products/544/900/005/0205/front_fr.59.400.jpg",
                 "categories": "Boissons, Boissons édulcorées, Boissons gazeuses, Boissons light, Sodas, Sodas light, Sodas au cola, Sodas au cola light",
+                # in case we need ingredients for future tests
                 # "ingredients_text": "Eau gazéifiée, colorant : caramel (E150d), acidifiants (acide phosphorique, acide citrique), édulcorants (aspartame, acesulfame K), extraits végétaux, arôme caféine",
                 "nutrition_grades_tags": [ "b", ],
                 "nutriments": {
@@ -53,9 +54,11 @@ class TestOffRequest:
         }, ]
 
     def test_parser_success(self, setup):
-        result = OFF_request.OFFRequest.prod_parser(OFF_request.OFFRequest(), self.offreq_dump_ok)
+        result = get_substitutes.Substitutes.prod_parser(get_substitutes.Substitutes(),
+                                                         self.offreq_dump_ok)
         assert result == self.parser_results
 
     def test_parser_fail(self, setup):
-        result = OFF_request.OFFRequest.prod_parser(OFF_request.OFFRequest(), self.offreq_dump_fail)
+        result = get_substitutes.Substitutes.prod_parser(get_substitutes.Substitutes(),
+                                                         self.offreq_dump_fail)
         assert len(result) == 0

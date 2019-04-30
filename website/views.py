@@ -1,11 +1,9 @@
 from django.contrib import messages, auth
-from django.http import HttpResponse, HttpResponseNotAllowed
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegistrationForm
 from .models.product import Product
-from .controler import Controler as c
-from .OFF_request import OFFRequest as OFFReq
+from .get_substitutes import Substitutes as Sub
 
 
 def home(request):
@@ -21,12 +19,12 @@ def result(request):
         THEN: look in database for substitute
         in the same category of product and a lower nutriscore"""
     query = request.GET.get('q')  # retrieve user search query
-    results = c.get_substitutes(c(), query)
+    results = Sub.select_substitutes(Sub(), query)  # try to select in database matching result
     if not results:
-        OFFReq.run(OFFReq(), query)
-        results = c.get_substitutes(c(), query)
+        Sub.run(Sub(), query)  # run OFF request parser and insert if not in database
+        results = Sub.select_substitutes(Sub(), query)  # try to select in database matching result
         if not results:
-            context = {}
+            context = {}  # None display error message
         else:
             context = {'search_prod': results[0], 'products': results[1]}
     else:
