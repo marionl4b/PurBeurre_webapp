@@ -1,17 +1,8 @@
-from django.contrib import messages, auth
+from django.contrib import auth
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from .forms import UserRegistrationForm
-from .models.product import Product
-from .get_substitutes import Substitutes as Sub
-
-
-def home(request):
-    return render(request, 'website/index.html')
-
-
-def legal(request):
-    return render(request, 'website/legal.html')
+from website.models.product import Product
+from website.get_substitutes import Substitutes as Sub
 
 
 def result(request):
@@ -76,23 +67,3 @@ def favorites(request):
         return render(request, 'website/list_product.html', context)
     else:
         return redirect('login')
-
-
-def register(request):
-    if request.method == 'POST':
-        form = UserRegistrationForm(request.POST)
-        if form.is_valid():
-            form.save()
-            messages.success(request,
-                             f"Votre compte vient d'être créé !, "
-                             f"vous pouvez désormais vous connecter")
-            return redirect('login')
-    else:
-        form = UserRegistrationForm()
-    context = {'form': form}
-    return render(request, 'website/register.html', context)
-
-
-@login_required
-def profile(request):
-    return render(request, 'website/profile.html')
