@@ -11,8 +11,10 @@ from bs4 import BeautifulSoup
 class TestViews:
     @pytest.fixture
     def setup(self, client):
-        """ Init test data from models in test database """
-        print("INIT DATA")
+        """ Init test data from models in test database
+            tests data for Category, Product and User
+            many-to-many relation has been set between Product and Category
+            and Product and User (favorites)"""
 
         # categories
         self.breakfast = Category.objects.create(name="breakfast")

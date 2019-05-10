@@ -5,7 +5,7 @@ import time
 
 
 class NewVisitorTest(LiveServerTestCase):
-    """Test new visitor"""
+    """Test new visitor scenario"""
     def setUp(self):
         self.browser = webdriver.Firefox()
 

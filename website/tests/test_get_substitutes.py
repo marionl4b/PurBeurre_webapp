@@ -7,6 +7,8 @@ from website import get_substitutes
 class TestSubstitutes:
     @pytest.fixture
     def setup(self, client):
+        """Init data for Open Food Fact API response and parsed data
+        to test get_substitutes data insertion"""
         self.offreq_dump_ok = [{
                 "product_name_fr": "Coca Cola Light",
                 "image_url": "https://static.openfoodfacts.org/images/products/544/900/005/0205/front_fr.59.400.jpg",
@@ -54,11 +56,13 @@ class TestSubstitutes:
         }, ]
 
     def test_parser_success(self, setup):
+        """verify parsed request response is the same that expected"""
         result = get_substitutes.Substitutes.prod_parser(get_substitutes.Substitutes(),
                                                          self.offreq_dump_ok)
         assert result == self.parser_results
 
     def test_parser_fail(self, setup):
+        """verify parsed request response is empty when not expected"""
         result = get_substitutes.Substitutes.prod_parser(get_substitutes.Substitutes(),
                                                          self.offreq_dump_fail)
         assert len(result) == 0
