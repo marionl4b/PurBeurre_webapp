@@ -9,6 +9,7 @@ and access it via is personal account on "my products" page.
 
 ## Demo
 You will find a demo of my Pur Beurre Platform on Heroku server
+https://dry-fortress-52363.herokuapp.com
 
 ## Author
 Marion Labarre  
